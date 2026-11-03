@@ -1,0 +1,51 @@
+{
+  "agent": "C1",
+  "generated_at": "2026-10-31T21:13:09+0400",
+  "generation_seconds": 7.5901,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize low fee, high liquidity, diverse DEXs",
+  "prompt_sha256": "78eeb12f6792fd0250c9dd97392cd30c21931867f8efd70f26df7a8f22fd4e6d",
+  "response_id": "gen-1793466782-3dmb31M1LXnNcv10fmGL",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Low fee, high liquidity"
+    },
+    {
+      "path_index": 1,
+      "reason": "Alternative DEX"
+    },
+    {
+      "path_index": 10,
+      "reason": "USDC bridge"
+    },
+    {
+      "path_index": 11,
+      "reason": "USDC via Sushi"
+    },
+    {
+      "path_index": 12,
+      "reason": "USDC via Uni"
+    },
+    {
+      "path_index": 13,
+      "reason": "USDC via Sushi"
+    },
+    {
+      "path_index": 60,
+      "reason": "USDC direct"
+    },
+    {
+      "path_index": 61,
+      "reason": "USDC via Sushi"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:5K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 193,
+    "prompt_tokens": 9929,
+    "total_tokens": 10122
+  }
+}

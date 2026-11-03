@@ -1,0 +1,51 @@
+{
+  "agent": "C1",
+  "generated_at": "2026-10-31T21:12:14+0400",
+  "generation_seconds": 1.7064,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize stablecoin loops and high\u2011volume tokens for best arbitrage potential.",
+  "prompt_sha256": "0b8a5da7e3ad467b377d78674a75b1e3afe1fe242332205ef01967979b012817",
+  "response_id": "gen-1793466733-yqpOgk89ujmhlMkHTV4B",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Pure Uniswap, minimal hops"
+    },
+    {
+      "path_index": 1,
+      "reason": "Uniswap+Sushi mix, low slippage"
+    },
+    {
+      "path_index": 10,
+      "reason": "Uniswap ETH-USDC-DAI, stable"
+    },
+    {
+      "path_index": 11,
+      "reason": "Sushi USDC route, stable"
+    },
+    {
+      "path_index": 12,
+      "reason": "Sushi DAI-ETH-USDC, stable"
+    },
+    {
+      "path_index": 14,
+      "reason": "Uniswap HEZ loop, high volume"
+    },
+    {
+      "path_index": 15,
+      "reason": "Sushi HEZ loop, high volume"
+    },
+    {
+      "path_index": 18,
+      "reason": "Sushi OHM loop, high liquidity"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:2K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 211,
+    "prompt_tokens": 9877,
+    "total_tokens": 10088
+  }
+}

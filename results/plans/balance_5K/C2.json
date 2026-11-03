@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-10-31T21:13:12+0400",
+  "generation_seconds": 3.1531,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize stable, low\u2011fee, high\u2011liquidity loops.",
+  "prompt_sha256": "7604772ff80b56b5e0a22838412bde40a2985b51ebe71ee48ecaed0ea0724723",
+  "response_id": "gen-1793466789-05SwE3h05X3Vmz0tRYgA",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Low fees, high liquidity"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ loop, good depth"
+    },
+    {
+      "path_index": 10,
+      "reason": "USDC bridge, stable"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC-ETH-DAI, balanced"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-DAI-USDC, reverse"
+    },
+    {
+      "path_index": 82,
+      "reason": "USDC-ETH-DAI, high volume"
+    },
+    {
+      "path_index": 48,
+      "reason": "HEZ-USDT, cross"
+    },
+    {
+      "path_index": 70,
+      "reason": "USDT-HEZ, reverse"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:5K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 205,
+    "prompt_tokens": 9882,
+    "total_tokens": 10087
+  }
+}

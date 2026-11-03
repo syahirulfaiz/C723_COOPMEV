@@ -1,0 +1,51 @@
+{
+  "agent": "A1",
+  "generated_at": "2026-10-31T21:18:51+0400",
+  "generation_seconds": 303.7288,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritise low\u2011fee, high\u2011liquidity loops with minimal hops.",
+  "prompt_sha256": "ea2feb348e548be505a6ace272ababb1e76ad39d2bd1529ae1038579de4a1c55",
+  "response_id": "gen-1793466828-o0K4sekdUyAh7AvwOJzb",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Direct DAI-ETH-HEZ-DAI, low depth"
+    },
+    {
+      "path_index": 10,
+      "reason": "DAI-ETH-USDC-DAI, high liquidity"
+    },
+    {
+      "path_index": 14,
+      "reason": "DAI-HEZ-ETH-DAI, same dex"
+    },
+    {
+      "path_index": 20,
+      "reason": "DAI-RAIL-ETH-DAI, balanced"
+    },
+    {
+      "path_index": 24,
+      "reason": "DAI-USDC-ETH-DAI, cross pool"
+    },
+    {
+      "path_index": 28,
+      "reason": "ETH-DAI-HEZ-ETH, reverse"
+    },
+    {
+      "path_index": 34,
+      "reason": "ETH-DAI-RAIL-ETH, stable"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-DAI-USDC-ETH, high volume"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:7K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 238,
+    "prompt_tokens": 9875,
+    "total_tokens": 10113
+  }
+}

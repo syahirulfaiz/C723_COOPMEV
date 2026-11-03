@@ -1,0 +1,51 @@
+{
+  "agent": "C1",
+  "generated_at": "2026-10-31T21:34:34+0400",
+  "generation_seconds": 11.0321,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize low fee, stable pairs, high liquidity.",
+  "prompt_sha256": "d20e94023abb03efb6b497f7979901db581d75378510dd624e5c97a2f60ad1c2",
+  "response_id": "gen-1793468063-fCdbkNEaZprq18afzRmM",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "DAI-ETH-HEZ-DAI, low fees"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ-ETH-DAI, reverse"
+    },
+    {
+      "path_index": 10,
+      "reason": "DAI-ETH-USDC-DAI, stable"
+    },
+    {
+      "path_index": 24,
+      "reason": "DAI-USDC-ETH-DAI, stable"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-DAI-USDC-ETH, stable"
+    },
+    {
+      "path_index": 45,
+      "reason": "ETH-HEZ-DAI-ETH, low slippage"
+    },
+    {
+      "path_index": 70,
+      "reason": "ETH-USDT-HEZ-ETH, high volume"
+    },
+    {
+      "path_index": 74,
+      "reason": "ETH-USDT-USDC-ETH, stable"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "latency:10s",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 218,
+    "prompt_tokens": 9883,
+    "total_tokens": 10101
+  }
+}

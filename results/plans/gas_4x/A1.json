@@ -1,0 +1,51 @@
+{
+  "agent": "A1",
+  "generated_at": "2026-10-31T21:45:32+0400",
+  "generation_seconds": 1.7814,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritise low\u2011fee, low\u2011depth routes for gas\u2011efficient arbitrage.",
+  "prompt_sha256": "9f550146597f2c19b33d935f27a878a7b6442a918a3a5dff407c9859bc8a38e5",
+  "response_id": "gen-1793468730-ON53uCHMpP6C7YTZoUBW",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Lowest fee, all Uniswap"
+    },
+    {
+      "path_index": 1,
+      "reason": "Uniswap+Sushi mix"
+    },
+    {
+      "path_index": 10,
+      "reason": "USDC bridge, low slippage"
+    },
+    {
+      "path_index": 11,
+      "reason": "Sushi USDC bridge"
+    },
+    {
+      "path_index": 12,
+      "reason": "Sushi DAI bridge"
+    },
+    {
+      "path_index": 13,
+      "reason": "Sushi DAI+USDC"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ via Uniswap"
+    },
+    {
+      "path_index": 15,
+      "reason": "HEZ via Sushi"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "gas:4x",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 186,
+    "prompt_tokens": 9879,
+    "total_tokens": 10065
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "agent": "C1",
+  "generated_at": "2026-10-31T21:45:48+0400",
+  "generation_seconds": 2.1756,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize low\u2011gas, high\u2011liquidity routes with stablecoins and diverse DEX usage.",
+  "prompt_sha256": "6b3ce63d767f3716d367907eaa4b0413ae82d8afb6defd5b636284c2970a46c2",
+  "response_id": "gen-1793468746-SDhHje81ZR25H436LpVS",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Low gas, high liquidity"
+    },
+    {
+      "path_index": 1,
+      "reason": "Alternative DEX mix"
+    },
+    {
+      "path_index": 10,
+      "reason": "Stablecoin path"
+    },
+    {
+      "path_index": 11,
+      "reason": "Sushi swap stable"
+    },
+    {
+      "path_index": 6,
+      "reason": "RAIL via Uniswap"
+    },
+    {
+      "path_index": 7,
+      "reason": "RAIL via Sushi"
+    },
+    {
+      "path_index": 8,
+      "reason": "RAIL via mixed"
+    },
+    {
+      "path_index": 2,
+      "reason": "OHM path for depth"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "gas:4x",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 268,
+    "prompt_tokens": 9881,
+    "total_tokens": 10149
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "agent": "A2",
+  "generated_at": "2026-10-31T21:46:46+0400",
+  "generation_seconds": 1.2374,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize diverse token loops with low fees",
+  "prompt_sha256": "9635e0da601f66f15375f9a0f0a75c2db5acf502930bf0a2ac57dc28a51443fc",
+  "response_id": "gen-1793468805-WuN9o0xmlJiAtAgDIrpf",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "DAI-ETH-HEZ loop"
+    },
+    {
+      "path_index": 10,
+      "reason": "DAI-ETH-USDC loop"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ-ETH-DAI reverse"
+    },
+    {
+      "path_index": 20,
+      "reason": "RAIL-ETH-DAI loop"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC-ETH-DAI loop"
+    },
+    {
+      "path_index": 28,
+      "reason": "ETH-DAI-HEZ loop"
+    },
+    {
+      "path_index": 34,
+      "reason": "ETH-DAI-RAIL loop"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-DAI-USDC loop"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "liquidity:0.5",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 192,
+    "prompt_tokens": 9912,
+    "total_tokens": 10104
+  }
+}

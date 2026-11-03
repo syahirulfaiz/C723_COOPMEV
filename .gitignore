@@ -1,0 +1,15 @@
+# machine-local / not for the public repository
+# (git does not support inline comments: keep comments on their own lines)
+.openrouter.env
+logs/
+results_demo/
+results_scratch/
+results/archive/
+results/freeze_manifest.json
+make_contract_rev11.py
+DATASET/*.mhtml
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db

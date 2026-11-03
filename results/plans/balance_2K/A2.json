@@ -1,0 +1,51 @@
+{
+  "agent": "A2",
+  "generated_at": "2026-10-31T21:12:12+0400",
+  "generation_seconds": 1.8539,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritise stable, low\u2011fee loops and high liquidity USDC paths.",
+  "prompt_sha256": "402a5d9615a146392fbfb25c1b82946a734475d9a4546ccde49c86b3ed257434",
+  "response_id": "gen-1793466731-s8w6JgtToBDGZdFmGurV",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Low fees, stable DAI-ETH loop"
+    },
+    {
+      "path_index": 1,
+      "reason": "Same loop, alternative dex"
+    },
+    {
+      "path_index": 10,
+      "reason": "DAI-ETH-USDC-DAI, good liquidity"
+    },
+    {
+      "path_index": 11,
+      "reason": "USDC swap on Sushi"
+    },
+    {
+      "path_index": 12,
+      "reason": "USDC via Uniswap"
+    },
+    {
+      "path_index": 13,
+      "reason": "USDC via Sushi"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ-ETH-DAI loop"
+    },
+    {
+      "path_index": 15,
+      "reason": "HEZ-ETH-DAI via Sushi"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:2K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 216,
+    "prompt_tokens": 9875,
+    "total_tokens": 10091
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "agent": "A2",
+  "generated_at": "2026-10-31T21:46:29+0400",
+  "generation_seconds": 1.8252,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritise low\u2011depth, high\u2011liquidity, low\u2011fee paths for best arbitrage potential.",
+  "prompt_sha256": "9c37d22a93b00de68503ad40b999a5e7abdc0eb988260319d8bf48b21d492af8",
+  "response_id": "gen-1793468788-mjrzeTw66gas7aa9ho1g",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Lowest depth, all Uniswap"
+    },
+    {
+      "path_index": 1,
+      "reason": "Uniswap+Sushi mix, similar depth"
+    },
+    {
+      "path_index": 10,
+      "reason": "USDC bridge, high liquidity"
+    },
+    {
+      "path_index": 11,
+      "reason": "Sushi USDC bridge, stable"
+    },
+    {
+      "path_index": 12,
+      "reason": "Sushi USDC bridge, stable"
+    },
+    {
+      "path_index": 13,
+      "reason": "Sushi USDC bridge, stable"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ bridge, moderate depth"
+    },
+    {
+      "path_index": 15,
+      "reason": "HEZ bridge, moderate depth"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "liquidity:0.25",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 206,
+    "prompt_tokens": 9879,
+    "total_tokens": 10085
+  }
+}

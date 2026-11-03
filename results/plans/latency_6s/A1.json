@@ -1,0 +1,51 @@
+{
+  "agent": "A1",
+  "generated_at": "2026-10-31T21:33:32+0400",
+  "generation_seconds": 20.2242,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize low fee, diverse tokens, Uniswap first.",
+  "prompt_sha256": "e04d33fe858f8dc7b138abe48c571a2562574b217ccb258ec82ecbd7b48e5343",
+  "response_id": "gen-1793467992-DtQB94fogMN2DmepfDWV",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Lowest fee, all Uniswap"
+    },
+    {
+      "path_index": 10,
+      "reason": "Uniswap USDC path"
+    },
+    {
+      "path_index": 20,
+      "reason": "RAIL via Uniswap"
+    },
+    {
+      "path_index": 30,
+      "reason": "OHM via Uniswap"
+    },
+    {
+      "path_index": 40,
+      "reason": "USDC via Uniswap"
+    },
+    {
+      "path_index": 50,
+      "reason": "OHM via Sushi"
+    },
+    {
+      "path_index": 60,
+      "reason": "HEZ via Uniswap"
+    },
+    {
+      "path_index": 70,
+      "reason": "USDT to HEZ via Uniswap"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "latency:6s",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 9928,
+    "total_tokens": 10101
+  }
+}

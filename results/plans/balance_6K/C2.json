@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-10-31T21:13:48+0400",
+  "generation_seconds": 13.3547,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize UUU routes for consistency",
+  "prompt_sha256": "e4b378efa823107f5d6ba6b51dbb54b7c9d574af2148e6a7af4b324499dfaf23",
+  "response_id": "gen-1793466814-M5ykTntSLhzo4X2kgVFx",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Lowest fees, all UUU"
+    },
+    {
+      "path_index": 1,
+      "reason": "All UUU, alternative"
+    },
+    {
+      "path_index": 2,
+      "reason": "All UUU, OHM"
+    },
+    {
+      "path_index": 3,
+      "reason": "All UUU, OHM"
+    },
+    {
+      "path_index": 4,
+      "reason": "All UUU, OHM"
+    },
+    {
+      "path_index": 5,
+      "reason": "All UUU, OHM"
+    },
+    {
+      "path_index": 6,
+      "reason": "All UUU, RAIL"
+    },
+    {
+      "path_index": 7,
+      "reason": "All UUU, RAIL"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:6K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 9929,
+    "total_tokens": 10093
+  }
+}

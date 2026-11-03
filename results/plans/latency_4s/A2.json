@@ -1,0 +1,51 @@
+{
+  "agent": "A2",
+  "generated_at": "2026-10-31T21:33:02+0400",
+  "generation_seconds": 11.3175,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize low latency, high liquidity, stablecoin routes.",
+  "prompt_sha256": "71c0924d44014ab80ce23ce43cc1ddc4b37ff66267dee1f8aa9866422ceeb8fa",
+  "response_id": "gen-1793467971-ba7eyOVTYVD278MxO1LN",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Fast, low fees, high liquidity"
+    },
+    {
+      "path_index": 6,
+      "reason": "Good depth, low slippage"
+    },
+    {
+      "path_index": 10,
+      "reason": "Stablecoin path, low volatility"
+    },
+    {
+      "path_index": 28,
+      "reason": "Quick ETH to DAI conversion"
+    },
+    {
+      "path_index": 38,
+      "reason": "Stable ETH to DAI route"
+    },
+    {
+      "path_index": 78,
+      "reason": "USDC to DAI to ETH, low cost"
+    },
+    {
+      "path_index": 82,
+      "reason": "USDC to ETH to DAI, high depth"
+    },
+    {
+      "path_index": 98,
+      "reason": "USDT to ETH to HEZ, stable path"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "latency:4s",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 309,
+    "prompt_tokens": 9881,
+    "total_tokens": 10190
+  }
+}

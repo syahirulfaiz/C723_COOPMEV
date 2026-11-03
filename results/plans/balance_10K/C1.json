@@ -1,0 +1,51 @@
+{
+  "agent": "C1",
+  "generated_at": "2026-10-31T21:20:01+0400",
+  "generation_seconds": 9.5513,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize low fee, high liquidity routes",
+  "prompt_sha256": "f47d1a2266dd86b0082532efb43e228b788a81c87db82dc51b22068aef85888e",
+  "response_id": "gen-1793467191-en3vm54RiOCFHF9bife5",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Low fee, simple DAI-ETH-HEZ"
+    },
+    {
+      "path_index": 1,
+      "reason": "Same, Sushi swap"
+    },
+    {
+      "path_index": 10,
+      "reason": "DAI-ETH-USDC"
+    },
+    {
+      "path_index": 11,
+      "reason": "USDC via Sushi"
+    },
+    {
+      "path_index": 12,
+      "reason": "USDC via Uni"
+    },
+    {
+      "path_index": 13,
+      "reason": "USDC via Sushi"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ via Uni"
+    },
+    {
+      "path_index": 15,
+      "reason": "HEZ via Sushi"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:10K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 9929,
+    "total_tokens": 10101
+  }
+}

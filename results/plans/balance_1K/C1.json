@@ -1,0 +1,51 @@
+{
+  "agent": "C1",
+  "generated_at": "2026-10-31T21:12:00+0400",
+  "generation_seconds": 2.2639,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritise same\u2011dex, low\u2011depth loops for minimal slippage.",
+  "prompt_sha256": "66da48d18ba6737fc4977772e0aebaabfb4f663ba057c00657e0014e799aba1c",
+  "response_id": "gen-1793466718-2uJ2Z91ndup5Ohz4ZK2I",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Lowest depth, same dex"
+    },
+    {
+      "path_index": 10,
+      "reason": "Same dex, minimal hops"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ loop, same dex"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC loop, same dex"
+    },
+    {
+      "path_index": 28,
+      "reason": "ETH>DAI>HEZ, same dex"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH>DAI>USDC, same dex"
+    },
+    {
+      "path_index": 48,
+      "reason": "HEZ>USDT loop, same dex"
+    },
+    {
+      "path_index": 58,
+      "reason": "RAIL>DAI loop, same dex"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:1K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 228,
+    "prompt_tokens": 9877,
+    "total_tokens": 10105
+  }
+}

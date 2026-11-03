@@ -1,0 +1,51 @@
+{
+  "agent": "A2",
+  "generated_at": "2026-10-31T21:33:59+0400",
+  "generation_seconds": 3.6343,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize high liquidity, low fee, balanced paths for latency 8s.",
+  "prompt_sha256": "1da359fa07e180cd22d9b147f0b874afc4428abec098cbcf86f1d2ecea638b09",
+  "response_id": "gen-1793468036-7Zfs2hpnd8yAmkQTW9SP",
+  "route_preferences": [
+    {
+      "path_index": 10,
+      "reason": "USDC liquidity high"
+    },
+    {
+      "path_index": 12,
+      "reason": "Sushi swap USDC path"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC-ETH-DAI efficient"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-DAI-USDC low slippage"
+    },
+    {
+      "path_index": 60,
+      "reason": "ETH-USDC-DAI stable"
+    },
+    {
+      "path_index": 78,
+      "reason": "USDC-DAI-ETH balanced"
+    },
+    {
+      "path_index": 90,
+      "reason": "USDC-ETH-USDT stable"
+    },
+    {
+      "path_index": 102,
+      "reason": "USDT-ETH-USDC depth"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "latency:8s",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 193,
+    "prompt_tokens": 9876,
+    "total_tokens": 10069
+  }
+}

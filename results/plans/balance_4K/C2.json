@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-10-31T21:12:56+0400",
+  "generation_seconds": 3.509,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize liquidity and low slippage routes.",
+  "prompt_sha256": "ab176e0b26a3325f4e0513becfbfad6e8816e4c7d3602a43a67c5b2edaceb2a7",
+  "response_id": "gen-1793466772-0AdDv9nh0PdQ3Sa4kBWT",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Direct DAI-ETH-DAI, high liquidity"
+    },
+    {
+      "path_index": 10,
+      "reason": "DAI-ETH-USDC-DAI, stablecoins"
+    },
+    {
+      "path_index": 14,
+      "reason": "DAI-HEZ-ETH-DAI, moderate risk"
+    },
+    {
+      "path_index": 20,
+      "reason": "DAI-RAIL-ETH-DAI, diverse"
+    },
+    {
+      "path_index": 30,
+      "reason": "ETH-DAI-OHM-ETH, high volume"
+    },
+    {
+      "path_index": 34,
+      "reason": "ETH-DAI-RAIL-ETH, balanced"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-DAI-USDC-ETH, low slippage"
+    },
+    {
+      "path_index": 44,
+      "reason": "ETH-FRAX-SUSHI-ETH, stable"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:4K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 310,
+    "prompt_tokens": 9882,
+    "total_tokens": 10192
+  }
+}

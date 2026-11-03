@@ -1,0 +1,51 @@
+{
+  "agent": "A1",
+  "generated_at": "2026-11-01T11:12:50+0400",
+  "generation_seconds": 1.594,
+  "model": "openai/gpt-oss-20b",
+  "notes": "focus on stablecoin cycles",
+  "prompt_sha256": "e54e5172a92cb1b2d847b03d253288f3e65e8e51820224d5ce63f15ea9e48e18",
+  "response_id": "gen-1793517169-4aZW7Xqwkrm6SGnkGFQ2",
+  "route_preferences": [
+    {
+      "path_index": 10,
+      "reason": "USDC loop, high liquidity"
+    },
+    {
+      "path_index": 12,
+      "reason": "USDC via Sushi, deep reserves"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC to ETH, low slippage"
+    },
+    {
+      "path_index": 30,
+      "reason": "OHM via Uniswap, stable"
+    },
+    {
+      "path_index": 34,
+      "reason": "RAIL via Uniswap, good depth"
+    },
+    {
+      "path_index": 44,
+      "reason": "FRAX-SUSHI, stablecoins"
+    },
+    {
+      "path_index": 70,
+      "reason": "USDT to HEZ, cross-DEX"
+    },
+    {
+      "path_index": 98,
+      "reason": "USDT to HEZ, deep pools"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "liquidity:1",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 161,
+    "prompt_tokens": 9945,
+    "total_tokens": 10106
+  }
+}

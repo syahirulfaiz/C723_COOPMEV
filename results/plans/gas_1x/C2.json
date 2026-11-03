@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-10-31T21:44:53+0400",
+  "generation_seconds": 10.8078,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize high liquidity, low fee, mixed DEX for robustness.",
+  "prompt_sha256": "f08483110ad20f99d69449ad637e1d5597935f1cbc4634c2c5bd4e811bcfdd51",
+  "response_id": "gen-1793468682-ine56nkE3WhrxQ00o08R",
+  "route_preferences": [
+    {
+      "path_index": 10,
+      "reason": "High liquidity DAI-ETH-USDC"
+    },
+    {
+      "path_index": 11,
+      "reason": "USDC via SushiSwap"
+    },
+    {
+      "path_index": 12,
+      "reason": "USDC via Uniswap"
+    },
+    {
+      "path_index": 13,
+      "reason": "USDC via SushiSwap"
+    },
+    {
+      "path_index": 0,
+      "reason": "DAI-ETH-HEZ-DAI Uniswap"
+    },
+    {
+      "path_index": 1,
+      "reason": "DAI-ETH-HEZ-DAI Sushi"
+    },
+    {
+      "path_index": 6,
+      "reason": "DAI-ETH-RAIL-DAI Uniswap"
+    },
+    {
+      "path_index": 7,
+      "reason": "DAI-ETH-RAIL-DAI Sushi"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "gas:1x",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 276,
+    "prompt_tokens": 9881,
+    "total_tokens": 10157
+  }
+}

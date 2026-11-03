@@ -1,0 +1,51 @@
+{
+  "agent": "C1",
+  "generated_at": "2026-10-31T21:33:45+0400",
+  "generation_seconds": 9.3401,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize stable, high liquidity loops, avoid exotic tokens.",
+  "prompt_sha256": "99ec0432c06b7ae7a68f53607e30727a33ea8708adf36f7dbfc2305e9eddb526",
+  "response_id": "gen-1793468015-TGJHlojEVed6VLp4BDI5",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Low slippage, balanced pools"
+    },
+    {
+      "path_index": 10,
+      "reason": "Stablecoin loop, high liquidity"
+    },
+    {
+      "path_index": 14,
+      "reason": "Reverse path, similar liquidity"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC-ETH-DAI, stable"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-DAI-USDC, stable"
+    },
+    {
+      "path_index": 45,
+      "reason": "HEZ loop, high volume"
+    },
+    {
+      "path_index": 59,
+      "reason": "SUSHI-FRAX, niche"
+    },
+    {
+      "path_index": 70,
+      "reason": "USDT-HEZ, high liquidity"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "latency:6s",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 189,
+    "prompt_tokens": 9883,
+    "total_tokens": 10072
+  }
+}

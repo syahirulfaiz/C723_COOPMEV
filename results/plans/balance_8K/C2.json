@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-10-31T21:19:34+0400",
+  "generation_seconds": 2.5925,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize low slippage, balanced liquidity, minimal hops.",
+  "prompt_sha256": "1f09388289723f72d5e65a23aef20c7f2253e543dc081dd5bbd3442687003277",
+  "response_id": "gen-1793467171-1Xp6kM4eOWrEAADZ7o9J",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Lowest fees, direct DAI-ETH-HEZ"
+    },
+    {
+      "path_index": 10,
+      "reason": "DAI-ETH-USDC loop"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ-ETH-DAI reverse"
+    },
+    {
+      "path_index": 20,
+      "reason": "DAI-RAIL-ETH"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC-ETH-DAI"
+    },
+    {
+      "path_index": 28,
+      "reason": "ETH-DAI-HEZ"
+    },
+    {
+      "path_index": 34,
+      "reason": "ETH-DAI-RAIL"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-DAI-USDC"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:8K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 196,
+    "prompt_tokens": 9882,
+    "total_tokens": 10078
+  }
+}

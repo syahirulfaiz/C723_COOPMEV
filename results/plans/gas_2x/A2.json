@@ -1,0 +1,51 @@
+{
+  "agent": "A2",
+  "generated_at": "2026-10-31T21:45:13+0400",
+  "generation_seconds": 12.4965,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize stablecoin loops and HEZ paths for best arbitrage.",
+  "prompt_sha256": "80917c0a38a0df178b931edc8a8a1de6e1ec29c7a30828b9a4d964fb52185d39",
+  "response_id": "gen-1793468701-rCG9UkDd3xHqYFYIfwRT",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Low fees, good liquidity"
+    },
+    {
+      "path_index": 10,
+      "reason": "Stablecoin loop, high depth"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ via UUU, efficient"
+    },
+    {
+      "path_index": 28,
+      "reason": "ETH to DAI to HEZ, low slippage"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-USDC-DAI, stable"
+    },
+    {
+      "path_index": 45,
+      "reason": "HEZ reverse, UUU"
+    },
+    {
+      "path_index": 59,
+      "reason": "SUSHI-FRAX loop, high depth"
+    },
+    {
+      "path_index": 70,
+      "reason": "USDT-HEZ, good depth"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "gas:2x",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 215,
+    "prompt_tokens": 9879,
+    "total_tokens": 10094
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "agent": "A2",
+  "generated_at": "2026-11-01T11:12:52+0400",
+  "generation_seconds": 1.2932,
+  "model": "openai/gpt-oss-20b",
+  "notes": "mix of high liquidity and cross-DEX",
+  "prompt_sha256": "9f322f0ad80cd42d4c9693df6a19f3ff96c538627cb9f0bdac435ba87de3e746",
+  "response_id": "gen-1793517170-qjoa2C5WCNkNVO668o6U",
+  "route_preferences": [
+    {
+      "path_index": 10,
+      "reason": "USDC loop liquidity"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ direct path"
+    },
+    {
+      "path_index": 20,
+      "reason": "RAIL ETH start"
+    },
+    {
+      "path_index": 30,
+      "reason": "OHM depth"
+    },
+    {
+      "path_index": 44,
+      "reason": "FRAX SUSHI swap"
+    },
+    {
+      "path_index": 70,
+      "reason": "USDT HEZ"
+    },
+    {
+      "path_index": 78,
+      "reason": "USDC DAI ETH"
+    },
+    {
+      "path_index": 98,
+      "reason": "USDT HEZ ETH"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "liquidity:1",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 9945,
+    "total_tokens": 10083
+  }
+}

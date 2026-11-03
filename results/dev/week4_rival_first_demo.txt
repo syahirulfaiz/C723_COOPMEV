@@ -1,0 +1,15 @@
+COSC723 Week-4 gate demo: a rival takes an opportunity first
+================================================================
+command        : python demo_rival_first.py --setting gas:1x --condition B2 --seed 40
+condition      : B2
+setting        : gas:1x
+seed           : 40
+round          : 2
+team agent     : C1 (its own best route was 16 DAI>OHM>ETH>DAI)
+rival          : A2 committed route 16 for +155.55 USD after gas
+team committed : 3
+team next best : 3
+planner model  : openai/gpt-oss-20b
+
+definition     : Preemption: after the team agent's turn in round r its own PPO candidate order is recomputed on the shared state; a case is recorded when a rival commits exactly that route later in the same round and the team agent did not commit that route itself. This closes the Week-4 gate ('one repeatable case where a rival takes an opportunity first'); it is a development artifact, not part of the frozen campaign.
+note           : this tool writes only under results/dev/; the frozen campaign artifacts are untouched

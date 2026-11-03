@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-10-31T21:34:08+0400",
+  "generation_seconds": 3.2154,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize DAI-HEZ loops, then USDC variants for best arbitrage.",
+  "prompt_sha256": "9f72560ef5a2838f1e3343a6604995d3294cfe54d89f6a4684642e6368f2811f",
+  "response_id": "gen-1793468045-rca25wKBGq1VY4z4Kucc",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Low fees, balanced liquidity"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ route, good depth"
+    },
+    {
+      "path_index": 45,
+      "reason": "HEZ reverse, efficient"
+    },
+    {
+      "path_index": 15,
+      "reason": "HEZ via Sushi, low slippage"
+    },
+    {
+      "path_index": 1,
+      "reason": "Sushi route, stable"
+    },
+    {
+      "path_index": 16,
+      "reason": "OHM via Sushi, decent"
+    },
+    {
+      "path_index": 20,
+      "reason": "RAIL via Sushi, moderate"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC-ETH-HEZ, good volume"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "latency:8s",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 203,
+    "prompt_tokens": 9883,
+    "total_tokens": 10086
+  }
+}

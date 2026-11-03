@@ -1,0 +1,51 @@
+{
+  "agent": "A1",
+  "generated_at": "2026-10-31T21:46:00+0400",
+  "generation_seconds": 2.0027,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritise low depth, single dex routes for minimal slippage.",
+  "prompt_sha256": "d7c710b07ac7e2b0c32309073dfb81f4e639cc15107ea7b760c345a8954a54da",
+  "response_id": "gen-1793468758-QH724hMGHohgzAZEAFEH",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Low depth, single dex"
+    },
+    {
+      "path_index": 10,
+      "reason": "Same dex, stable"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ loop, low depth"
+    },
+    {
+      "path_index": 20,
+      "reason": "RAIL loop, single dex"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC loop, single dex"
+    },
+    {
+      "path_index": 28,
+      "reason": "ETH>DAI>HEZ, low depth"
+    },
+    {
+      "path_index": 34,
+      "reason": "RAIL via ETH, single dex"
+    },
+    {
+      "path_index": 38,
+      "reason": "USDC>DAI>ETH, single dex"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "gas:8x",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 197,
+    "prompt_tokens": 9879,
+    "total_tokens": 10076
+  }
+}

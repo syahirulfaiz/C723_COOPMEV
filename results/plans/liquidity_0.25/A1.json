@@ -1,0 +1,51 @@
+{
+  "agent": "A1",
+  "generated_at": "2026-10-31T21:46:28+0400",
+  "generation_seconds": 9.7746,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize stablecoin loops, then low\u2011depth alternative tokens.",
+  "prompt_sha256": "c8d1d52f15c374b8135f1e23127295ca6efdb35fd525fc768ce1e68ef815b27c",
+  "response_id": "gen-1793468778-2kgj7zvs66cEE6sKqN4I",
+  "route_preferences": [
+    {
+      "path_index": 10,
+      "reason": "Stablecoin loop, low slippage"
+    },
+    {
+      "path_index": 11,
+      "reason": "Stablecoin loop, low slippage"
+    },
+    {
+      "path_index": 12,
+      "reason": "Stablecoin loop, low slippage"
+    },
+    {
+      "path_index": 13,
+      "reason": "Stablecoin loop, low slippage"
+    },
+    {
+      "path_index": 6,
+      "reason": "RAIL loop, moderate depth"
+    },
+    {
+      "path_index": 7,
+      "reason": "RAIL loop, moderate depth"
+    },
+    {
+      "path_index": 0,
+      "reason": "HEZ loop, low depth"
+    },
+    {
+      "path_index": 1,
+      "reason": "HEZ loop, low depth"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "liquidity:0.25",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 250,
+    "prompt_tokens": 9884,
+    "total_tokens": 10134
+  }
+}

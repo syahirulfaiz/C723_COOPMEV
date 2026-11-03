@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-10-31T21:33:12+0400",
+  "generation_seconds": 5.9113,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritise low\u2011latency, high\u2011liquidity, low\u2011fee paths for DAI, USDC, ETH, HEZ, RAIL.",
+  "prompt_sha256": "525461c69741898c3cc666f0a448e24a6178e395482eb8f146af9a4d368246a5",
+  "response_id": "gen-1793467986-XDU6QoQDhFhqsOsXIMxx",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Fast, low fee, high liquidity"
+    },
+    {
+      "path_index": 1,
+      "reason": "Alternative DAI\u2011ETH\u2011HEZ path"
+    },
+    {
+      "path_index": 6,
+      "reason": "DAI\u2011ETH\u2011RAIL route"
+    },
+    {
+      "path_index": 10,
+      "reason": "DAI\u2011ETH\u2011USDC path"
+    },
+    {
+      "path_index": 28,
+      "reason": "ETH\u2011DAI\u2011HEZ reverse"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH\u2011DAI\u2011USDC reverse"
+    },
+    {
+      "path_index": 78,
+      "reason": "USDC\u2011DAI\u2011ETH loop"
+    },
+    {
+      "path_index": 82,
+      "reason": "USDC\u2011ETH\u2011DAI loop"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "latency:4s",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 319,
+    "prompt_tokens": 9878,
+    "total_tokens": 10197
+  }
+}

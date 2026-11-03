@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-10-31T21:45:30+0400",
+  "generation_seconds": 2.0936,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize UUU routes for lowest gas and best liquidity.",
+  "prompt_sha256": "7c011ca66df0f01f1e55562ae178ed2835bc47a7b4f2d71d30a92a0066de452c",
+  "response_id": "gen-1793468728-jg8h0y1l8nNyNRy1e7c3",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "DAI\u2011ETH\u2011HEZ\u2011DAI UUU, high liquidity"
+    },
+    {
+      "path_index": 10,
+      "reason": "DAI\u2011ETH\u2011USDC\u2011DAI UUU, stable"
+    },
+    {
+      "path_index": 28,
+      "reason": "ETH\u2011DAI\u2011HEZ\u2011ETH UUU, low slippage"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH\u2011DAI\u2011USDC\u2011ETH UUU, stable"
+    },
+    {
+      "path_index": 78,
+      "reason": "USDC\u2011DAI\u2011ETH\u2011USDC UUU, high depth"
+    },
+    {
+      "path_index": 82,
+      "reason": "USDC\u2011ETH\u2011DAI\u2011USDC UUU, stable"
+    },
+    {
+      "path_index": 98,
+      "reason": "USDT\u2011ETH\u2011HEZ\u2011USDT UUU, good depth"
+    },
+    {
+      "path_index": 102,
+      "reason": "USDT\u2011ETH\u2011USDC\u2011USDT UUU, stable"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "gas:2x",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 322,
+    "prompt_tokens": 9876,
+    "total_tokens": 10198
+  }
+}

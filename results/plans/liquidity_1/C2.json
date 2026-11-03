@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-11-01T11:12:56+0400",
+  "generation_seconds": 2.6625,
+  "model": "openai/gpt-oss-20b",
+  "notes": "prioritize deep, cross\u2011DEX cycles",
+  "prompt_sha256": "28358897daf5564092c654f90da9a466794c6a8841e886eb596f9c33540914cb",
+  "response_id": "gen-1793517173-8HeAaDeHiHyBcTd1rOZO",
+  "route_preferences": [
+    {
+      "path_index": 10,
+      "reason": "deep ETH-DAI-USDC liquidity"
+    },
+    {
+      "path_index": 11,
+      "reason": "USDC on Sushi for better depth"
+    },
+    {
+      "path_index": 12,
+      "reason": "Sushi DAI-ETH-USDC combo"
+    },
+    {
+      "path_index": 13,
+      "reason": "Sushi USDC-ETH-DAI depth"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ cross on Uniswap"
+    },
+    {
+      "path_index": 15,
+      "reason": "HEZ cross on Sushi"
+    },
+    {
+      "path_index": 16,
+      "reason": "OHM on Sushi for depth"
+    },
+    {
+      "path_index": 17,
+      "reason": "OHM on Sushi cross"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "liquidity:1",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 188,
+    "prompt_tokens": 9934,
+    "total_tokens": 10122
+  }
+}

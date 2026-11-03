@@ -1,0 +1,51 @@
+{
+  "agent": "C1",
+  "generated_at": "2026-10-31T21:19:13+0400",
+  "generation_seconds": 1.7423,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize stablecoins and high liquidity paths, with HEZ as secondary option.",
+  "prompt_sha256": "dcf6f8a1c366fa82d656c70734a2c3a86c1bf9867547ecf8403a25faf237edd4",
+  "response_id": "gen-1793467151-eHO0DAAZ4ZBNHGec8aG0",
+  "route_preferences": [
+    {
+      "path_index": 10,
+      "reason": "DAI-ETH-USDC-DAI, high liquidity"
+    },
+    {
+      "path_index": 24,
+      "reason": "DAI-USDC-ETH-DAI, reverse, good"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-DAI-USDC-ETH, stable"
+    },
+    {
+      "path_index": 60,
+      "reason": "ETH-USDC-DAI-ETH, stable"
+    },
+    {
+      "path_index": 78,
+      "reason": "USDC-DAI-ETH-USDC, stable"
+    },
+    {
+      "path_index": 84,
+      "reason": "USDC-ETH-DAI-USDC, stable"
+    },
+    {
+      "path_index": 0,
+      "reason": "DAI-ETH-HEZ-DAI, high depth"
+    },
+    {
+      "path_index": 14,
+      "reason": "DAI-HEZ-ETH-DAI, alternative"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:7K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 225,
+    "prompt_tokens": 9877,
+    "total_tokens": 10102
+  }
+}

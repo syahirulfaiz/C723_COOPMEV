@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-10-31T21:33:51+0400",
+  "generation_seconds": 6.2386,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Top 8 low\u2011fee, diverse DEX routes",
+  "prompt_sha256": "46d8e46e26b8260259416f125886d08a86aa276ff85669b890dbae18150c05d8",
+  "response_id": "gen-1793468025-eguTVvvDMZ5O7ryzyfTf",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Lowest fee, all Uniswap"
+    },
+    {
+      "path_index": 1,
+      "reason": "Uniswap+Sushi mix"
+    },
+    {
+      "path_index": 2,
+      "reason": "OHM via Uniswap"
+    },
+    {
+      "path_index": 3,
+      "reason": "OHM via Uniswap"
+    },
+    {
+      "path_index": 4,
+      "reason": "OHM via Sushi"
+    },
+    {
+      "path_index": 5,
+      "reason": "OHM via Sushi"
+    },
+    {
+      "path_index": 6,
+      "reason": "RAIL via Uniswap"
+    },
+    {
+      "path_index": 7,
+      "reason": "RAIL via Uniswap"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "latency:6s",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 9930,
+    "total_tokens": 10092
+  }
+}

@@ -1,0 +1,56 @@
+{
+    "date": "2026-06-27",
+    "wallet": {
+        "dai": {
+            "allocation_weight": 0.2,
+            "amount": 200.07042478952593,
+            "price_usd": 0.999648,
+            "value_usd": 200.0
+        },
+        "ethereum": {
+            "allocation_weight": 0.2,
+            "amount": 0.12575136440230375,
+            "price_usd": 1590.44,
+            "value_usd": 200.0
+        },
+        "tether": {
+            "allocation_weight": 0.2,
+            "amount": 200.29202577357788,
+            "price_usd": 0.998542,
+            "value_usd": 200.0
+        },
+        "usd-coin": {
+            "allocation_weight": 0.2,
+            "amount": 200.0060001800054,
+            "price_usd": 0.99997,
+            "value_usd": 200.0
+        },
+        "wrapped-bitcoin": {
+            "allocation_weight": 0.2,
+            "amount": 0.0033128488843981382,
+            "price_usd": 60371.0,
+            "value_usd": 200.0
+        }
+    },
+    "wallet_metadata": {
+        "allocation_tokens": [
+            "ethereum",
+            "usd-coin",
+            "tether",
+            "dai",
+            "wrapped-bitcoin"
+        ],
+        "allocation_weights": {
+            "dai": 0.2,
+            "ethereum": 0.2,
+            "tether": 0.2,
+            "usd-coin": 0.2,
+            "wrapped-bitcoin": 0.2
+        },
+        "capital_semantics": "total_wallet_budget_usd_split_across_selected_tokens",
+        "generator": "wallet_balance_generator_1K_10K.py",
+        "note": "The total budget is split across selected tokens; it is not repeated for every token in the price universe.",
+        "total_budget_usd": 1000.0,
+        "validation_total_value_usd": 1000.0
+    }
+}

@@ -1,0 +1,51 @@
+{
+  "agent": "A2",
+  "generated_at": "2026-10-31T21:13:02+0400",
+  "generation_seconds": 1.7349,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize stable, low fee, balanced liquidity routes.",
+  "prompt_sha256": "d516338a33c2cc9407e462b9c78b477d0bddd8e87f825a7af21a9e64316f4a55",
+  "response_id": "gen-1793466780-wI865tzIRldUiLPXW0Lh",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Lowest fees, all Uniswap"
+    },
+    {
+      "path_index": 1,
+      "reason": "Uniswap+Sushi mix, similar liquidity"
+    },
+    {
+      "path_index": 10,
+      "reason": "USDC intermediate, stable"
+    },
+    {
+      "path_index": 11,
+      "reason": "Sushi USDC, stable"
+    },
+    {
+      "path_index": 12,
+      "reason": "Sushi DAI, stable"
+    },
+    {
+      "path_index": 13,
+      "reason": "Sushi DAI, stable"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ loop, low slippage"
+    },
+    {
+      "path_index": 15,
+      "reason": "HEZ loop, mixed DEX"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:5K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 190,
+    "prompt_tokens": 9880,
+    "total_tokens": 10070
+  }
+}

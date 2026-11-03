@@ -1,0 +1,383 @@
+{
+  "c6_semantics": "C6 counts observation construction, message handling, PPO inference, candidate screening, CPMM simulation, checker validation, tentative state transition and execution bookkeeping per agent; offline plan generation is excluded",
+  "checker_selftest": "results/checker_selftest.csv",
+  "condition_agents": {
+    "B1": [
+      "C1",
+      "A1"
+    ],
+    "B2": [
+      "C1",
+      "C2",
+      "A1",
+      "A2"
+    ],
+    "B3": [
+      "C1",
+      "C2",
+      "A1",
+      "A2"
+    ],
+    "PPO_no_plan": [
+      "C1",
+      "C2",
+      "A1",
+      "A2"
+    ],
+    "Proposed": [
+      "C1",
+      "C2",
+      "A1",
+      "A2"
+    ]
+  },
+  "condition_plans": {
+    "B1": [
+      "C1",
+      "A1"
+    ],
+    "B2": [
+      "C1",
+      "C2",
+      "A1",
+      "A2"
+    ],
+    "B3": [
+      "C1",
+      "C2",
+      "A1",
+      "A2"
+    ],
+    "PPO_no_plan": [
+      "A1",
+      "A2"
+    ],
+    "Proposed": [
+      "C1",
+      "C2",
+      "A1",
+      "A2"
+    ]
+  },
+  "conditions": {
+    "B1": "one integrated agent versus one integrated rival; context only",
+    "B2": "four agents with saved plans; communication OFF (primary control)",
+    "B3": "C1 route message read and ignored; measures message overhead",
+    "PPO_no_plan": "Proposed without C1/C2 plans; identical duplicate-route rule",
+    "Proposed": "communication ON; C2 avoids C1's route when a feasible alternative exists"
+  },
+  "max_rounds": 40,
+  "observation_dim": 355,
+  "planner": {
+    "max_completion_tokens": 512,
+    "model": "openai/gpt-oss-120b",
+    "offline": true,
+    "plan_budget": 92,
+    "plan_campaign": {
+      "campaign_seconds": 0.0,
+      "checked_plans_by_agent": {
+        "A1": 23,
+        "A2": 23,
+        "C1": 23,
+        "C2": 23
+      },
+      "generated_at": "2026-11-01T12:46:12+0400",
+      "mode": "fill_complete",
+      "model": "openai/gpt-oss-20b",
+      "planned_slots": 92,
+      "planner_environment_model": "openai/gpt-oss-120b",
+      "plans_present": 92,
+      "request_ceiling": 300,
+      "requests_actual_total": 101,
+      "requests_archived_previous_campaigns": 0,
+      "requests_by_agent": {
+        "A1": 25,
+        "A2": 26,
+        "C1": 27,
+        "C2": 23
+      },
+      "requests_by_setting": {
+        "balance:10K": 5,
+        "balance:1K": 4,
+        "balance:2K": 4,
+        "balance:3K": 5,
+        "balance:4K": 4,
+        "balance:5K": 4,
+        "balance:6K": 5,
+        "balance:7K": 5,
+        "balance:8K": 4,
+        "balance:9K": 4,
+        "gas:1x": 4,
+        "gas:2x": 4,
+        "gas:4x": 5,
+        "gas:8x": 4,
+        "latency:10s": 5,
+        "latency:12s": 5,
+        "latency:4s": 5,
+        "latency:6s": 4,
+        "latency:8s": 4,
+        "liquidity:0.25": 4,
+        "liquidity:0.5": 5,
+        "liquidity:0.75": 4,
+        "liquidity:1": 4
+      },
+      "requests_failed_this_campaign": 0,
+      "requests_in_usage_file": 101,
+      "requests_this_campaign": 0,
+      "slots_missing": []
+    },
+    "plan_policy": {
+      "mode": "fill_complete",
+      "planned_slots": 92,
+      "request_ceiling": 300
+    },
+    "plan_preferences": 8,
+    "reasoning_effort": "low"
+  },
+  "protocol_id": "v2.09-legacy-symbol-jun27-174p-114r-c6-r3",
+  "queue_rule": "readiness schedule fixed by role rank C1->C2->A1->A2; the checker uses the latest shared state before every commit",
+  "seeds": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "settings": [
+    {
+      "balance_usd": 1000,
+      "c6_seconds": 12.0,
+      "dimension": "balance",
+      "gas_multiplier": 1.0,
+      "label": "1K",
+      "liquidity_depth": 1.0,
+      "setting_id": "balance:1K",
+      "value": 1000.0
+    },
+    {
+      "balance_usd": 2000,
+      "c6_seconds": 12.0,
+      "dimension": "balance",
+      "gas_multiplier": 1.0,
+      "label": "2K",
+      "liquidity_depth": 1.0,
+      "setting_id": "balance:2K",
+      "value": 2000.0
+    },
+    {
+      "balance_usd": 3000,
+      "c6_seconds": 12.0,
+      "dimension": "balance",
+      "gas_multiplier": 1.0,
+      "label": "3K",
+      "liquidity_depth": 1.0,
+      "setting_id": "balance:3K",
+      "value": 3000.0
+    },
+    {
+      "balance_usd": 4000,
+      "c6_seconds": 12.0,
+      "dimension": "balance",
+      "gas_multiplier": 1.0,
+      "label": "4K",
+      "liquidity_depth": 1.0,
+      "setting_id": "balance:4K",
+      "value": 4000.0
+    },
+    {
+      "balance_usd": 5000,
+      "c6_seconds": 12.0,
+      "dimension": "balance",
+      "gas_multiplier": 1.0,
+      "label": "5K",
+      "liquidity_depth": 1.0,
+      "setting_id": "balance:5K",
+      "value": 5000.0
+    },
+    {
+      "balance_usd": 6000,
+      "c6_seconds": 12.0,
+      "dimension": "balance",
+      "gas_multiplier": 1.0,
+      "label": "6K",
+      "liquidity_depth": 1.0,
+      "setting_id": "balance:6K",
+      "value": 6000.0
+    },
+    {
+      "balance_usd": 7000,
+      "c6_seconds": 12.0,
+      "dimension": "balance",
+      "gas_multiplier": 1.0,
+      "label": "7K",
+      "liquidity_depth": 1.0,
+      "setting_id": "balance:7K",
+      "value": 7000.0
+    },
+    {
+      "balance_usd": 8000,
+      "c6_seconds": 12.0,
+      "dimension": "balance",
+      "gas_multiplier": 1.0,
+      "label": "8K",
+      "liquidity_depth": 1.0,
+      "setting_id": "balance:8K",
+      "value": 8000.0
+    },
+    {
+      "balance_usd": 9000,
+      "c6_seconds": 12.0,
+      "dimension": "balance",
+      "gas_multiplier": 1.0,
+      "label": "9K",
+      "liquidity_depth": 1.0,
+      "setting_id": "balance:9K",
+      "value": 9000.0
+    },
+    {
+      "balance_usd": 10000,
+      "c6_seconds": 12.0,
+      "dimension": "balance",
+      "gas_multiplier": 1.0,
+      "label": "10K",
+      "liquidity_depth": 1.0,
+      "setting_id": "balance:10K",
+      "value": 10000.0
+    },
+    {
+      "balance_usd": 2000,
+      "c6_seconds": 4.0,
+      "dimension": "latency",
+      "gas_multiplier": 1.0,
+      "label": "4s",
+      "liquidity_depth": 1.0,
+      "setting_id": "latency:4s",
+      "value": 4.0
+    },
+    {
+      "balance_usd": 2000,
+      "c6_seconds": 6.0,
+      "dimension": "latency",
+      "gas_multiplier": 1.0,
+      "label": "6s",
+      "liquidity_depth": 1.0,
+      "setting_id": "latency:6s",
+      "value": 6.0
+    },
+    {
+      "balance_usd": 2000,
+      "c6_seconds": 8.0,
+      "dimension": "latency",
+      "gas_multiplier": 1.0,
+      "label": "8s",
+      "liquidity_depth": 1.0,
+      "setting_id": "latency:8s",
+      "value": 8.0
+    },
+    {
+      "balance_usd": 2000,
+      "c6_seconds": 10.0,
+      "dimension": "latency",
+      "gas_multiplier": 1.0,
+      "label": "10s",
+      "liquidity_depth": 1.0,
+      "setting_id": "latency:10s",
+      "value": 10.0
+    },
+    {
+      "balance_usd": 2000,
+      "c6_seconds": 12.0,
+      "dimension": "latency",
+      "gas_multiplier": 1.0,
+      "label": "12s",
+      "liquidity_depth": 1.0,
+      "setting_id": "latency:12s",
+      "value": 12.0
+    },
+    {
+      "balance_usd": 2000,
+      "c6_seconds": 12.0,
+      "dimension": "gas",
+      "gas_multiplier": 1.0,
+      "label": "1x",
+      "liquidity_depth": 1.0,
+      "setting_id": "gas:1x",
+      "value": 1.0
+    },
+    {
+      "balance_usd": 2000,
+      "c6_seconds": 12.0,
+      "dimension": "gas",
+      "gas_multiplier": 2.0,
+      "label": "2x",
+      "liquidity_depth": 1.0,
+      "setting_id": "gas:2x",
+      "value": 2.0
+    },
+    {
+      "balance_usd": 2000,
+      "c6_seconds": 12.0,
+      "dimension": "gas",
+      "gas_multiplier": 4.0,
+      "label": "4x",
+      "liquidity_depth": 1.0,
+      "setting_id": "gas:4x",
+      "value": 4.0
+    },
+    {
+      "balance_usd": 2000,
+      "c6_seconds": 12.0,
+      "dimension": "gas",
+      "gas_multiplier": 8.0,
+      "label": "8x",
+      "liquidity_depth": 1.0,
+      "setting_id": "gas:8x",
+      "value": 8.0
+    },
+    {
+      "balance_usd": 2000,
+      "c6_seconds": 12.0,
+      "dimension": "liquidity",
+      "gas_multiplier": 1.0,
+      "label": "0.25",
+      "liquidity_depth": 0.25,
+      "setting_id": "liquidity:0.25",
+      "value": 0.25
+    },
+    {
+      "balance_usd": 2000,
+      "c6_seconds": 12.0,
+      "dimension": "liquidity",
+      "gas_multiplier": 1.0,
+      "label": "0.5",
+      "liquidity_depth": 0.5,
+      "setting_id": "liquidity:0.5",
+      "value": 0.5
+    },
+    {
+      "balance_usd": 2000,
+      "c6_seconds": 12.0,
+      "dimension": "liquidity",
+      "gas_multiplier": 1.0,
+      "label": "0.75",
+      "liquidity_depth": 0.75,
+      "setting_id": "liquidity:0.75",
+      "value": 0.75
+    },
+    {
+      "balance_usd": 2000,
+      "c6_seconds": 12.0,
+      "dimension": "liquidity",
+      "gas_multiplier": 1.0,
+      "label": "1",
+      "liquidity_depth": 1.0,
+      "setting_id": "liquidity:1",
+      "value": 1.0
+    }
+  ]
+}

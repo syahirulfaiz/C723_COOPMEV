@@ -1,0 +1,51 @@
+{
+  "agent": "A2",
+  "generated_at": "2026-10-31T21:39:34+0400",
+  "generation_seconds": 11.0724,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize low latency, high liquidity, stable pairs.",
+  "prompt_sha256": "c60b7c78c9b1855c0ae329f99a5051d0714bc9a93b681a26d194d4f530bb69a9",
+  "response_id": "gen-1793468363-CkZ0ExxEksgdBmZIBcut",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Fast, high liquidity DAI-ETH-HEZ"
+    },
+    {
+      "path_index": 1,
+      "reason": "Alternative DAI-ETH-HEZ via Sushi"
+    },
+    {
+      "path_index": 6,
+      "reason": "DAI-ETH-RAIL high depth"
+    },
+    {
+      "path_index": 10,
+      "reason": "DAI-ETH-USDC stable"
+    },
+    {
+      "path_index": 28,
+      "reason": "ETH-DAI-HEZ quick"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-DAI-USDC stable"
+    },
+    {
+      "path_index": 78,
+      "reason": "USDC-DAI-ETH loop"
+    },
+    {
+      "path_index": 82,
+      "reason": "USDC-ETH-DAI loop"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "latency:12s",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 304,
+    "prompt_tokens": 9881,
+    "total_tokens": 10185
+  }
+}

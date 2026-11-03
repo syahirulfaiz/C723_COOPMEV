@@ -1,0 +1,85 @@
+{
+  "case": {
+    "condition": "B2",
+    "note": "the rival committed the route that was the team agent's own best candidate on the shared state right after its turn",
+    "rival": "A2",
+    "rival_after_gas_profit_usd": 155.55401545194636,
+    "rival_amount_fraction": 0.8955241441726685,
+    "rival_route": 16,
+    "round": 2,
+    "seed": 40,
+    "setting_id": "gas:1x",
+    "team_agent": "C1",
+    "team_committed_this_round": 3,
+    "team_next_best_after_rival": 3,
+    "team_top_route_before_rival": 16,
+    "team_top_route_tokens": "DAI>OHM>ETH>DAI"
+  },
+  "case_definition": "Preemption: after the team agent's turn in round r its own PPO candidate order is recomputed on the shared state; a case is recorded when a rival commits exactly that route later in the same round and the team agent did not commit that route itself. This closes the Week-4 gate ('one repeatable case where a rival takes an opportunity first'); it is a development artifact, not part of the frozen campaign.",
+  "code_sha256": {
+    "chart.py": "939aeb43cc27bb78a33a3acb7956c62934a1dc7c4055a3cb8dfb2f9eb0aabd57",
+    "driver.py": "53b216cce71db7b3a5ba80d4fa15728b3b6d84515fed41ddf0cf863616b4529b",
+    "environment.py": "f77ac037185060bfdf2fe7c5376cc28d3847dd58ccce62dadce9316d8d9325ad"
+  },
+  "command": "python demo_rival_first.py --setting gas:1x --condition B2 --seed 40",
+  "frozen_campaign_note": "this tool writes only under results/dev/; the frozen campaign artifacts are untouched",
+  "generated_at": "2026-11-01T21:15:57+0400",
+  "model_sha256": "6f5a0cc762086ef29f06399b52446ca6cd6c0fd9c1cfa7addf9337654088bdec",
+  "planner": {
+    "environment_model": "openai/gpt-oss-20b",
+    "plan_campaign": {
+      "campaign_seconds": 0.0,
+      "checked_plans_by_agent": {
+        "A1": 23,
+        "A2": 23,
+        "C1": 23,
+        "C2": 23
+      },
+      "generated_at": "2026-11-01T12:46:12+0400",
+      "mode": "fill_complete",
+      "model": "openai/gpt-oss-20b",
+      "planned_slots": 92,
+      "planner_environment_model": "openai/gpt-oss-120b",
+      "plans_present": 92,
+      "request_ceiling": 300,
+      "requests_actual_total": 101,
+      "requests_archived_previous_campaigns": 0,
+      "requests_by_agent": {
+        "A1": 25,
+        "A2": 26,
+        "C1": 27,
+        "C2": 23
+      },
+      "requests_by_setting": {
+        "balance:10K": 5,
+        "balance:1K": 4,
+        "balance:2K": 4,
+        "balance:3K": 5,
+        "balance:4K": 4,
+        "balance:5K": 4,
+        "balance:6K": 5,
+        "balance:7K": 5,
+        "balance:8K": 4,
+        "balance:9K": 4,
+        "gas:1x": 4,
+        "gas:2x": 4,
+        "gas:4x": 5,
+        "gas:8x": 4,
+        "latency:10s": 5,
+        "latency:12s": 5,
+        "latency:4s": 5,
+        "latency:6s": 4,
+        "latency:8s": 4,
+        "liquidity:0.25": 4,
+        "liquidity:0.5": 5,
+        "liquidity:0.75": 4,
+        "liquidity:1": 4
+      },
+      "requests_failed_this_campaign": 0,
+      "requests_in_usage_file": 101,
+      "requests_this_campaign": 0,
+      "slots_missing": []
+    }
+  },
+  "search_seconds": 0.41
+}

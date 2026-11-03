@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-11-01T11:12:42+0400",
+  "generation_seconds": 1.6983,
+  "model": "openai/gpt-oss-20b",
+  "notes": "prioritize deep, low-fee cross-DEX cycles",
+  "prompt_sha256": "9ba1b4ca2b885660dc42f1e4dde4c5151d589db6ed0ccb5d109010d08988d0eb",
+  "response_id": "gen-1793517160-DFNyvvcKaYU7vLnKKcpc",
+  "route_preferences": [
+    {
+      "path_index": 10,
+      "reason": "deep DAI-ETH-USDC liquidity"
+    },
+    {
+      "path_index": 11,
+      "reason": "Sushi DAI-ETH-USDC depth"
+    },
+    {
+      "path_index": 12,
+      "reason": "Uniswap DAI-ETH-USDC depth"
+    },
+    {
+      "path_index": 13,
+      "reason": "Sushi DAI-ETH-USDC depth"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC-DAI-ETH depth"
+    },
+    {
+      "path_index": 25,
+      "reason": "USDC-DAI-ETH depth"
+    },
+    {
+      "path_index": 26,
+      "reason": "USDC-DAI-ETH depth"
+    },
+    {
+      "path_index": 27,
+      "reason": "USDC-DAI-ETH depth"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "liquidity:0.5",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 209,
+    "prompt_tokens": 9949,
+    "total_tokens": 10158
+  }
+}

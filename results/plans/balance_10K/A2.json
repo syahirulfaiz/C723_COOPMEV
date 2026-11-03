@@ -1,0 +1,51 @@
+{
+  "agent": "A2",
+  "generated_at": "2026-10-31T21:19:51+0400",
+  "generation_seconds": 1.8838,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritise diverse token loops, low fees, balanced liquidity.",
+  "prompt_sha256": "a44573597c39ee9749789ac7af677e13e59363f126096b40bc02935c3088f879",
+  "response_id": "gen-1793467189-koBkFksba6DJiKMy3A0T",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Base DAI-ETH-HEZ cycle"
+    },
+    {
+      "path_index": 10,
+      "reason": "DAI-ETH-USDC loop"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ-ETH-DAI reverse"
+    },
+    {
+      "path_index": 20,
+      "reason": "RAIL-ETH-DAI"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC-ETH-DAI"
+    },
+    {
+      "path_index": 28,
+      "reason": "ETH-DAI-HEZ"
+    },
+    {
+      "path_index": 34,
+      "reason": "ETH-DAI-RAIL"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-DAI-USDC"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:10K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 190,
+    "prompt_tokens": 9880,
+    "total_tokens": 10070
+  }
+}

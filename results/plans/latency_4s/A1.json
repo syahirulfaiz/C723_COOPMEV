@@ -1,0 +1,51 @@
+{
+  "agent": "A1",
+  "generated_at": "2026-10-31T21:20:09+0400",
+  "generation_seconds": 5.6633,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritise low-hop, high-liquidity, and diverse paths for robustness.",
+  "prompt_sha256": "4c65052065d376c723d9edeac206b58a9772eceee52c92bde55515264e2425f1",
+  "response_id": "gen-1793467204-RscdVTysiFInFGZnTCUj",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Direct DAI-ETH-DAI, lowest hops"
+    },
+    {
+      "path_index": 10,
+      "reason": "DAI-ETH-USDC-DAI, good liquidity"
+    },
+    {
+      "path_index": 14,
+      "reason": "Reverse DAI-HEZ-ETH-DAI, low fees"
+    },
+    {
+      "path_index": 45,
+      "reason": "Reverse ETH-HEZ-DAI-ETH, similar"
+    },
+    {
+      "path_index": 70,
+      "reason": "USDT-ETH-HEZ-USDT, high volume"
+    },
+    {
+      "path_index": 71,
+      "reason": "USDT-ETH-HEZ-USDT via Sushi, alternative"
+    },
+    {
+      "path_index": 72,
+      "reason": "USDT-ETH-LON-USDT, diverse"
+    },
+    {
+      "path_index": 73,
+      "reason": "USDT-ETH-LON-USDT via Sushi, backup"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "latency:4s",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 412,
+    "prompt_tokens": 9881,
+    "total_tokens": 10293
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "agent": "A2",
+  "generated_at": "2026-10-31T21:34:23+0400",
+  "generation_seconds": 2.7994,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize high liquidity, low fee, mixed DEXes",
+  "prompt_sha256": "f25636d63a24b538b337294134a95b86d431034f008651cd1f844c0ae6da56a9",
+  "response_id": "gen-1793468060-g4P1CToamQkdvurDPyGF",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Fast UUU path"
+    },
+    {
+      "path_index": 1,
+      "reason": "Sushi alternative"
+    },
+    {
+      "path_index": 10,
+      "reason": "USDC middle"
+    },
+    {
+      "path_index": 11,
+      "reason": "Sushi USDC"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ reverse"
+    },
+    {
+      "path_index": 15,
+      "reason": "HEZ via Sushi"
+    },
+    {
+      "path_index": 20,
+      "reason": "RAIL via Sushi"
+    },
+    {
+      "path_index": 21,
+      "reason": "RAIL via Sushi"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "latency:10s",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 9881,
+    "total_tokens": 10058
+  }
+}

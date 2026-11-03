@@ -1,0 +1,51 @@
+{
+  "agent": "C1",
+  "generated_at": "2026-10-31T21:46:48+0400",
+  "generation_seconds": 2.0871,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize stablecoins, low fees, high depth",
+  "prompt_sha256": "78cf705e958f8ccc062f423e90b7f8eaa1425a8b3a0c3117ae32ab4162e8d34c",
+  "response_id": "gen-1793468806-z9BnLuHjes2w6N9tCsze",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Low fees, stable DAI-ETH-HEZ"
+    },
+    {
+      "path_index": 10,
+      "reason": "Stable USDC path, low slippage"
+    },
+    {
+      "path_index": 14,
+      "reason": "Reverse HEZ-ETH-DAI, similar liquidity"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC-ETH-DAI, high depth"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-DAI-USDC, balanced"
+    },
+    {
+      "path_index": 60,
+      "reason": "ETH-USDC-DAI, high liquidity"
+    },
+    {
+      "path_index": 78,
+      "reason": "USDC-DAI-ETH, stable"
+    },
+    {
+      "path_index": 90,
+      "reason": "USDC-ETH-USDT, good depth"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "liquidity:0.5",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 221,
+    "prompt_tokens": 9886,
+    "total_tokens": 10107
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "agent": "A2",
+  "generated_at": "2026-10-31T21:12:49+0400",
+  "generation_seconds": 1.3621,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize diverse, low\u2011fee, stable routes",
+  "prompt_sha256": "e81491f8fd096e1d2a3742681c57e77f765d47306b792d450966dc319ff72dd3",
+  "response_id": "gen-1793466768-y5lDgllEVHQascqGAUcH",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Low fee, common tokens"
+    },
+    {
+      "path_index": 10,
+      "reason": "Stablecoin loop"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ to ETH"
+    },
+    {
+      "path_index": 20,
+      "reason": "RAIL to ETH"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC to ETH"
+    },
+    {
+      "path_index": 28,
+      "reason": "ETH to HEZ"
+    },
+    {
+      "path_index": 34,
+      "reason": "ETH to RAIL"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH to USDC"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:4K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 9908,
+    "total_tokens": 10072
+  }
+}

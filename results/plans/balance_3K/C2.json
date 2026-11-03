@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-10-31T21:12:42+0400",
+  "generation_seconds": 2.4131,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritise stable\u2011token loops with high liquidity and low slippage.",
+  "prompt_sha256": "af44db607a1c64c8028aa18d30984938c2e7d9bbe5f4ba7c94de82eaf916ade5",
+  "response_id": "gen-1793466759-TLt4SWyZmo2h7nXB7lgv",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Lowest fees, Uniswap depth"
+    },
+    {
+      "path_index": 1,
+      "reason": "Sushi swap alternative"
+    },
+    {
+      "path_index": 10,
+      "reason": "USDC intermediate, good depth"
+    },
+    {
+      "path_index": 11,
+      "reason": "Sushi USDC swap"
+    },
+    {
+      "path_index": 12,
+      "reason": "Sushi DAI swap"
+    },
+    {
+      "path_index": 13,
+      "reason": "Sushi DAI swap"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ via Uniswap"
+    },
+    {
+      "path_index": 15,
+      "reason": "HEZ via Sushi"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:3K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 174,
+    "prompt_tokens": 9877,
+    "total_tokens": 10051
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "agent": "A2",
+  "generated_at": "2026-10-31T21:46:05+0400",
+  "generation_seconds": 5.6087,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize DAI-ETH-USDC and DAI-ETH-HEZ routes",
+  "prompt_sha256": "cb7a1b9e8bceac84152d14e3c187ed67ffd889e4e72efc81ae067606dcd413a2",
+  "response_id": "gen-1793468760-T6o5SWXjfPoH56lsbIFj",
+  "route_preferences": [
+    {
+      "path_index": 10,
+      "reason": "Low gas, high liquidity"
+    },
+    {
+      "path_index": 11,
+      "reason": "Low gas, high liquidity"
+    },
+    {
+      "path_index": 12,
+      "reason": "Low gas, high liquidity"
+    },
+    {
+      "path_index": 13,
+      "reason": "Low gas, high liquidity"
+    },
+    {
+      "path_index": 0,
+      "reason": "Low gas, high liquidity"
+    },
+    {
+      "path_index": 1,
+      "reason": "Low gas, high liquidity"
+    },
+    {
+      "path_index": 6,
+      "reason": "Low gas, high liquidity"
+    },
+    {
+      "path_index": 7,
+      "reason": "Low gas, high liquidity"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "gas:8x",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 235,
+    "prompt_tokens": 9926,
+    "total_tokens": 10161
+  }
+}

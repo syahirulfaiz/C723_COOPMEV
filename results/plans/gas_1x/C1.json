@@ -1,0 +1,51 @@
+{
+  "agent": "C1",
+  "generated_at": "2026-10-31T21:44:42+0400",
+  "generation_seconds": 10.8668,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize low fee, high liquidity, minimal hops.",
+  "prompt_sha256": "7fb415505f5c8c0347b42f8ce03c2831b29eefd43c470832f43ac32186aec774",
+  "response_id": "gen-1793468671-T0huOAhmNHxk4hQN1yH7",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Lowest slippage, all Uniswap"
+    },
+    {
+      "path_index": 10,
+      "reason": "Uniswap ETH-USDC path"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ via Uniswap"
+    },
+    {
+      "path_index": 20,
+      "reason": "RAIL via Uniswap"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC->ETH->DAI"
+    },
+    {
+      "path_index": 28,
+      "reason": "ETH->DAI->HEZ"
+    },
+    {
+      "path_index": 34,
+      "reason": "ETH->DAI->RAIL"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH->DAI->USDC"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "gas:1x",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 188,
+    "prompt_tokens": 9881,
+    "total_tokens": 10069
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "agent": "C1",
+  "generated_at": "2026-10-31T21:12:39+0400",
+  "generation_seconds": 3.1901,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritise low\u2011fee, stable routes",
+  "prompt_sha256": "a291c809ca94192c3893b59795ed45ee2283973874b0bf2af0e608e7c492378c",
+  "response_id": "gen-1793466756-pgzCwepFCR1qDv2eO11E",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Direct DAI-ETH-DAI, lowest slippage"
+    },
+    {
+      "path_index": 10,
+      "reason": "DAI-ETH-USDC-DAI, stablecoin path"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ intermediate, low fees"
+    },
+    {
+      "path_index": 20,
+      "reason": "RAIL intermediate, stable"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC-ETH-DAI, reverse stable"
+    },
+    {
+      "path_index": 28,
+      "reason": "ETH-DAI-HEZ, reverse"
+    },
+    {
+      "path_index": 34,
+      "reason": "ETH-DAI-RAIL, reverse"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-DAI-USDC, reverse"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:3K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 207,
+    "prompt_tokens": 9882,
+    "total_tokens": 10089
+  }
+}

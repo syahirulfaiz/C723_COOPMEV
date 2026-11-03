@@ -1,0 +1,3482 @@
+[
+  {
+    "pool": "WISE/ETH",
+    "reserves": {
+      "WISE": "521440815605462303147108838",
+      "WETH": "28507033800249938336455"
+    },
+    "reserves_adjusted": {
+      "WISE": 521440815.6054623,
+      "WETH": 28507.033800249937
+    },
+    "price": 5.466973997259779e-05,
+    "last_update": 1782578591,
+    "token0": "WISE",
+    "token1": "WETH",
+    "token0_address": "0x66a0f676479Cee1d7373f3DC2e2952778BfF5bd6",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "PEPE/ETH",
+    "reserves": {
+      "PEPE": "3705838002820033076978152513626",
+      "WETH": "5647196188450538402323"
+    },
+    "reserves_adjusted": {
+      "PEPE": 3705838002820.033,
+      "WETH": 5647.196188450538
+    },
+    "price": 1.5238648273759374e-09,
+    "last_update": 1782582947,
+    "token0": "PEPE",
+    "token1": "WETH",
+    "token0_address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "ETH/USDC",
+    "reserves": {
+      "USDC": "8065181640639",
+      "WETH": "5067934339529839827041"
+    },
+    "reserves_adjusted": {
+      "USDC": 8065181.640639,
+      "WETH": 5067.93433952984
+    },
+    "price": 0.0006283720026829192,
+    "last_update": 1782582779,
+    "token0": "USDC",
+    "token1": "WETH",
+    "token0_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 6,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "ETH/USDT",
+    "reserves": {
+      "WETH": "4255239698020610713860",
+      "USDT": "6781854300890"
+    },
+    "reserves_adjusted": {
+      "WETH": 4255.23969802061,
+      "USDT": 6781854.30089
+    },
+    "price": 1593.7655178496013,
+    "last_update": 1782582299,
+    "token0": "WETH",
+    "token1": "USDT",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "PAXG/ETH",
+    "reserves": {
+      "PAXG": "1502164495560609830577",
+      "WETH": "3841962833517436620210"
+    },
+    "reserves_adjusted": {
+      "PAXG": 1502.1644955606098,
+      "WETH": 3841.9628335174366
+    },
+    "price": 2.5576179205883913,
+    "last_update": 1782579899,
+    "token0": "PAXG",
+    "token1": "WETH",
+    "token0_address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "SPX/ETH",
+    "reserves": {
+      "WETH": "2621726320183938815196",
+      "SPX": "1212298730675591"
+    },
+    "reserves_adjusted": {
+      "WETH": 2621.7263201839387,
+      "SPX": 12122987.30675591
+    },
+    "price": 4624.0476030714635,
+    "last_update": 1782583247,
+    "token0": "WETH",
+    "token1": "SPX",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xE0f63A424a4439cBE457D80E4f4b51aD25b2c56C",
+    "token0_decimals": 18,
+    "token1_decimals": 8,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "ETH/DAI",
+    "reserves": {
+      "DAI": "3711251595691048427825899",
+      "WETH": "2331749668065893358347"
+    },
+    "reserves_adjusted": {
+      "DAI": 3711251.5956910485,
+      "WETH": 2331.7496680658933
+    },
+    "price": 0.0006282919947473173,
+    "last_update": 1782579923,
+    "token0": "DAI",
+    "token1": "WETH",
+    "token0_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "WBTC/ETH",
+    "reserves": {
+      "WBTC": "5373734278",
+      "WETH": "2036556098254137612909"
+    },
+    "reserves_adjusted": {
+      "WBTC": 53.73734278,
+      "WETH": 2036.5560982541376
+    },
+    "price": 37.89834020248773,
+    "last_update": 1782582647,
+    "token0": "WBTC",
+    "token1": "WETH",
+    "token0_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 8,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "FLOKI/ETH",
+    "reserves": {
+      "WETH": "1753008854516595230097",
+      "FLOKI": "126572813872879088827"
+    },
+    "reserves_adjusted": {
+      "WETH": 1753.0088545165952,
+      "FLOKI": 126572813872.87909
+    },
+    "price": 72203180.00491929,
+    "last_update": 1782580883,
+    "token0": "WETH",
+    "token1": "FLOKI",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xcf0C122c6b73ff809C693DB761e7BaeBe62b6a2E",
+    "token0_decimals": 18,
+    "token1_decimals": 9,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "MOG/ETH",
+    "reserves": {
+      "Mog": "20019571545574256182762405302950",
+      "WETH": "1331720233429266974804"
+    },
+    "reserves_adjusted": {
+      "Mog": 20019571545574.258,
+      "WETH": 1331.720233429267
+    },
+    "price": 6.652091581468792e-11,
+    "last_update": 1782582935,
+    "token0": "Mog",
+    "token1": "WETH",
+    "token0_address": "0xaaeE1A9723aaDB7afA2810263653A34bA2C21C7a",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "ELON/ETH",
+    "reserves": {
+      "ELON": "72119054850167194765272590405412",
+      "WETH": "1287426581635478108836"
+    },
+    "reserves_adjusted": {
+      "ELON": 72119054850167.19,
+      "WETH": 1287.4265816354782
+    },
+    "price": 1.785140673723754e-11,
+    "last_update": 1782583139,
+    "token0": "ELON",
+    "token1": "WETH",
+    "token0_address": "0x761D38e5ddf6ccf6Cf7c55759d5210750B5D60F3",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "DG/USDC",
+    "reserves": {
+      "DG": "40183616412018100968047610",
+      "USDC": "1677634242829"
+    },
+    "reserves_adjusted": {
+      "DG": 40183616.4120181,
+      "USDC": 1677634.242829
+    },
+    "price": 0.04174921006679862,
+    "last_update": 1782459251,
+    "token0": "DG",
+    "token1": "USDC",
+    "token0_address": "0x53C8395465A84955c95159814461466053DedEDE",
+    "token1_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "USDC/USDT",
+    "reserves": {
+      "USDC": "1663938968482",
+      "USDT": "1669330266793"
+    },
+    "reserves_adjusted": {
+      "USDC": 1663938.968482,
+      "USDT": 1669330.266793
+    },
+    "price": 1.0032400817656904,
+    "last_update": 1782581939,
+    "token0": "USDC",
+    "token1": "USDT",
+    "token0_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token1_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "token0_decimals": 6,
+    "token1_decimals": 6,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "OPAL/ETH",
+    "reserves": {
+      "OPAL": "6487791593788241053924400",
+      "WETH": "952190441710127203669"
+    },
+    "reserves_adjusted": {
+      "OPAL": 6487791.593788241,
+      "WETH": 952.1904417101272
+    },
+    "price": 0.00014676649641794988,
+    "last_update": 1782581795,
+    "token0": "OPAL",
+    "token1": "WETH",
+    "token0_address": "0x199E2CFaf8B4f2CC5423971EF3749d1c89Cf815C",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "HEZ/USDT",
+    "reserves": {
+      "USDT": "1372578911509",
+      "HEZ": "455269562205661935719639"
+    },
+    "reserves_adjusted": {
+      "USDT": 1372578.911509,
+      "HEZ": 455269.56220566196
+    },
+    "price": 0.33168917166674444,
+    "last_update": 1782581351,
+    "token0": "USDT",
+    "token1": "HEZ",
+    "token0_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "token1_address": "0xEEF9f339514298C6A857EfCfC1A762aF84438dEE",
+    "token0_decimals": 6,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "NEIRO/ETH",
+    "reserves": {
+      "Neiro": "19005161143472150542",
+      "WETH": "729127807309228440405"
+    },
+    "reserves_adjusted": {
+      "Neiro": 19005161143.47215,
+      "WETH": 729.1278073092284
+    },
+    "price": 3.836472639221307e-08,
+    "last_update": 1782581999,
+    "token0": "Neiro",
+    "token1": "WETH",
+    "token0_address": "0x812Ba41e071C7b7fA4EBcFB62dF5F45f6fA853Ee",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 9,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "BEAM/ETH",
+    "reserves": {
+      "BEAM": "848257315880636657549640613",
+      "WETH": "710357638021516815585"
+    },
+    "reserves_adjusted": {
+      "BEAM": 848257315.8806367,
+      "WETH": 710.3576380215168
+    },
+    "price": 8.374317848164311e-07,
+    "last_update": 1782583091,
+    "token0": "BEAM",
+    "token1": "WETH",
+    "token0_address": "0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "XFI/ETH",
+    "reserves": {
+      "XFI": "27417619091607668437495",
+      "WETH": "650226875247444885532"
+    },
+    "reserves_adjusted": {
+      "XFI": 27417.619091607667,
+      "WETH": 650.2268752474449
+    },
+    "price": 0.023715657915988578,
+    "last_update": 1782350351,
+    "token0": "XFI",
+    "token1": "WETH",
+    "token0_address": "0x5BEfBB272290dD5b8521D4a938f6c4757742c430",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "BANANA/ETH",
+    "reserves": {
+      "BANANA": "381242634543215067593164",
+      "WETH": "643343257186337845503"
+    },
+    "reserves_adjusted": {
+      "BANANA": 381242.63454321504,
+      "WETH": 643.3432571863378
+    },
+    "price": 0.0016874903247826886,
+    "last_update": 1782583199,
+    "token0": "BANANA",
+    "token1": "WETH",
+    "token0_address": "0x38E68A37E401F7271568CecaAc63c6B1e19130B4",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "GEKKO/ETH",
+    "reserves": {
+      "WETH": "578524554875879861325",
+      "GEKKO": "1929031452450852460692297463641"
+    },
+    "reserves_adjusted": {
+      "WETH": 578.5245548758799,
+      "GEKKO": 1929031452450.8525
+    },
+    "price": 3334398576.8498945,
+    "last_update": 1782570563,
+    "token0": "WETH",
+    "token1": "GEKKO",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xf017d3690346eb8234b85F74cEe5E15821fEe1f4",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "UNI/ETH",
+    "reserves": {
+      "UNI": "333459965011325810317705",
+      "WETH": "627002782176967769616"
+    },
+    "reserves_adjusted": {
+      "UNI": 333459.9650113258,
+      "WETH": 627.0027821769678
+    },
+    "price": 0.0018802940321656664,
+    "last_update": 1782583403,
+    "token0": "UNI",
+    "token1": "WETH",
+    "token0_address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "ASTEROID/ETH",
+    "reserves": {
+      "WETH": "614979269009239525040",
+      "ASTEROID": "9964114505233034411"
+    },
+    "reserves_adjusted": {
+      "WETH": 614.9792690092395,
+      "ASTEROID": 9964114505.233034
+    },
+    "price": 16202358.367763666,
+    "last_update": 1782583415,
+    "token0": "WETH",
+    "token1": "ASTEROID",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xf280B16EF293D8e534e370794ef26bF312694126",
+    "token0_decimals": 18,
+    "token1_decimals": 9,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "RAD/USDC",
+    "reserves": {
+      "RAD": "4312685629699143193852880",
+      "USDC": "921378879027"
+    },
+    "reserves_adjusted": {
+      "RAD": 4312685.629699144,
+      "USDC": 921378.879027
+    },
+    "price": 0.21364387718918343,
+    "last_update": 1782583415,
+    "token0": "RAD",
+    "token1": "USDC",
+    "token0_address": "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3",
+    "token1_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "SUPER/ETH",
+    "reserves": {
+      "WETH": "582384264684160392656",
+      "SUPER": "10646271105600782071416413"
+    },
+    "reserves_adjusted": {
+      "WETH": 582.3842646841604,
+      "SUPER": 10646271.105600782
+    },
+    "price": 18280.492367654344,
+    "last_update": 1782582227,
+    "token0": "WETH",
+    "token1": "SUPER",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xe53EC727dbDEB9E2d5456c3be40cFF031AB40A55",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "NPC/ETH",
+    "reserves": {
+      "NPC": "196561371503613761613252890",
+      "WETH": "566618974352010227958"
+    },
+    "reserves_adjusted": {
+      "NPC": 196561371.50361377,
+      "WETH": 566.6189743520102
+    },
+    "price": 2.8826568008638105e-06,
+    "last_update": 1782582551,
+    "token0": "NPC",
+    "token1": "WETH",
+    "token0_address": "0x8eD97a637A790Be1feff5e888d43629dc05408F6",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "CAW/ETH",
+    "reserves": {
+      "WETH": "505149443838998030990",
+      "CAW": "26421505770831900512438207801977"
+    },
+    "reserves_adjusted": {
+      "WETH": 505.149443838998,
+      "CAW": 26421505770831.902
+    },
+    "price": 52304335069.7086,
+    "last_update": 1782579923,
+    "token0": "WETH",
+    "token1": "CAW",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xf3b9569F82B18aEf890De263B84189bd33EBe452",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "FLUT/DAI",
+    "reserves": {
+      "FLUT": "796338671389987953276",
+      "DAI": "720680125323553886089104"
+    },
+    "reserves_adjusted": {
+      "FLUT": 7963386713.899879,
+      "DAI": 720680.1253235539
+    },
+    "price": 9.049919980221807e-05,
+    "last_update": 1782378131,
+    "token0": "FLUT",
+    "token1": "DAI",
+    "token0_address": "0x4F08705FB8F33AffC231ed66e626B40E84A71870",
+    "token1_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "token0_decimals": 11,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "LON/ETH",
+    "reserves": {
+      "LON": "3743209706907685016977878",
+      "WETH": "412896861569545227134"
+    },
+    "reserves_adjusted": {
+      "LON": 3743209.706907685,
+      "WETH": 412.89686156954525
+    },
+    "price": 0.00011030556498279783,
+    "last_update": 1782583247,
+    "token0": "LON",
+    "token1": "WETH",
+    "token0_address": "0x0000000000095413afC295d19EDeb1Ad7B71c952",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "LFT/ETH",
+    "reserves": {
+      "LFT": "1655201234037395608055510086",
+      "WETH": "302999392000760277352"
+    },
+    "reserves_adjusted": {
+      "LFT": 1655201234.0373957,
+      "WETH": 302.9993920007603
+    },
+    "price": 1.8305894520249896e-07,
+    "last_update": 1770441143,
+    "token0": "LFT",
+    "token1": "WETH",
+    "token0_address": "0xB620Be8a1949AA9532e6a3510132864EF9Bc3F82",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "TENSOR/DAI",
+    "reserves": {
+      "TENSOR": "73980518850056705393106",
+      "DAI": "599444973109869574617793"
+    },
+    "reserves_adjusted": {
+      "TENSOR": 73980.5188500567,
+      "DAI": 599444.9731098695
+    },
+    "price": 8.102740862426515,
+    "last_update": 1782582623,
+    "token0": "TENSOR",
+    "token1": "DAI",
+    "token0_address": "0x16A3543Fa6B32CAC3B0A755f64A729E84f89a75C",
+    "token1_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "RAIL/ETH",
+    "reserves": {
+      "WETH": "376091099999587396439",
+      "RAIL": "277082764268408050506333"
+    },
+    "reserves_adjusted": {
+      "WETH": 376.0910999995874,
+      "RAIL": 277082.76426840806
+    },
+    "price": 736.7437417921137,
+    "last_update": 1782580343,
+    "token0": "WETH",
+    "token1": "RAIL",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xe76C6c83af64e4C60245D8C7dE953DF673a7A33D",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "OLAS/ETH",
+    "reserves": {
+      "OLAS": "19342024061453374260373958",
+      "WETH": "372521980805539262621"
+    },
+    "reserves_adjusted": {
+      "OLAS": 19342024.061453376,
+      "WETH": 372.5219808055393
+    },
+    "price": 1.9259720679798787e-05,
+    "last_update": 1782582719,
+    "token0": "OLAS",
+    "token1": "WETH",
+    "token0_address": "0x0001A500A6B18995B03f44bb040A5fFc28E45CB0",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "CULT/ETH",
+    "reserves": {
+      "WETH": "360998007432218522837",
+      "CULT": "999488719373176542072640115014"
+    },
+    "reserves_adjusted": {
+      "WETH": 360.9980074322185,
+      "CULT": 999488719373.1765
+    },
+    "price": 2768682094.6258044,
+    "last_update": 1782569663,
+    "token0": "WETH",
+    "token1": "CULT",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xf0f9D895aCa5c8678f706FB8216fa22957685A13",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "DAI/USDC",
+    "reserves": {
+      "DAI": "544339483011459020955641",
+      "USDC": "544466413990"
+    },
+    "reserves_adjusted": {
+      "DAI": 544339.483011459,
+      "USDC": 544466.41399
+    },
+    "price": 1.000233183486597,
+    "last_update": 1782493979,
+    "token0": "DAI",
+    "token1": "USDC",
+    "token0_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "token1_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "HEZ/DAI",
+    "reserves": {
+      "DAI": "534347429287733423564727",
+      "HEZ": "177523679173632424056368"
+    },
+    "reserves_adjusted": {
+      "DAI": 534347.4292877334,
+      "HEZ": 177523.67917363244
+    },
+    "price": 0.3322251955254381,
+    "last_update": 1782573071,
+    "token0": "DAI",
+    "token1": "HEZ",
+    "token0_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "token1_address": "0xEEF9f339514298C6A857EfCfC1A762aF84438dEE",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "SHIBDOGE/ETH",
+    "reserves": {
+      "ShibDoge": "58731911938473338088618211817448",
+      "WETH": "319314803885230334170"
+    },
+    "reserves_adjusted": {
+      "ShibDoge": 5.873191193847334e+22,
+      "WETH": 319.31480388523033
+    },
+    "price": 5.436819496353868e-21,
+    "last_update": 1782549287,
+    "token0": "ShibDoge",
+    "token1": "WETH",
+    "token0_address": "0x6ADb2E268de2aA1aBF6578E4a8119b960E02928F",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 9,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "XCN/ETH",
+    "reserves": {
+      "XCN": "128920907444591613924898020",
+      "WETH": "318220534144411489342"
+    },
+    "reserves_adjusted": {
+      "XCN": 128920907.44459161,
+      "WETH": 318.2205341444115
+    },
+    "price": 2.468339235675782e-06,
+    "last_update": 1782583487,
+    "token0": "XCN",
+    "token1": "WETH",
+    "token0_address": "0xA2cd3D43c775978A96BdBf12d733D5A1ED94fb18",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "HEZ/ETH",
+    "reserves": {
+      "WETH": "309760956519044939735",
+      "HEZ": "164225464437849742942158"
+    },
+    "reserves_adjusted": {
+      "WETH": 309.76095651904495,
+      "HEZ": 164225.46443784973
+    },
+    "price": 530.1683797833724,
+    "last_update": 1782581351,
+    "token0": "WETH",
+    "token1": "HEZ",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xEEF9f339514298C6A857EfCfC1A762aF84438dEE",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "MKR/ETH",
+    "reserves": {
+      "MKR": "411815412580474366142",
+      "WETH": "295562465199383070487"
+    },
+    "reserves_adjusted": {
+      "MKR": 411.81541258047434,
+      "WETH": 295.5624651993831
+    },
+    "price": 0.7177061765303069,
+    "last_update": 1782583295,
+    "token0": "MKR",
+    "token1": "WETH",
+    "token0_address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "JOE/ETH",
+    "reserves": {
+      "JOE": "94310277961237624598658659",
+      "WETH": "304473620019675942729"
+    },
+    "reserves_adjusted": {
+      "JOE": 94310277.96123762,
+      "WETH": 304.47362001967593
+    },
+    "price": 3.2284245853332905e-06,
+    "last_update": 1782581579,
+    "token0": "JOE",
+    "token1": "WETH",
+    "token0_address": "0x76e222b07C53D28b89b0bAc18602810Fc22B49A8",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "FOX/ETH",
+    "reserves": {
+      "WETH": "292596594148568524996",
+      "FOX": "117656516776191333529773708"
+    },
+    "reserves_adjusted": {
+      "WETH": 292.5965941485685,
+      "FOX": 117656516.77619134
+    },
+    "price": 402111.70987332205,
+    "last_update": 1782579923,
+    "token0": "WETH",
+    "token1": "FOX",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xc770EEfAd204B5180dF6a14Ee197D99d808ee52d",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "OCEAN/ETH",
+    "reserves": {
+      "OCEAN": "3779463775467602887157625",
+      "WETH": "283575458252823736955"
+    },
+    "reserves_adjusted": {
+      "OCEAN": 3779463.775467603,
+      "WETH": 283.57545825282375
+    },
+    "price": 7.503060621813718e-05,
+    "last_update": 1782582623,
+    "token0": "OCEAN",
+    "token1": "WETH",
+    "token0_address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "WOJAK/ETH",
+    "reserves": {
+      "wojak": "5374534544149782521606195060258",
+      "WETH": "280444791712811254017"
+    },
+    "reserves_adjusted": {
+      "wojak": 5374534544149.782,
+      "WETH": 280.44479171281125
+    },
+    "price": 5.218029382992381e-11,
+    "last_update": 1782583511,
+    "token0": "wojak",
+    "token1": "WETH",
+    "token0_address": "0x8De39B057CC6522230AB19C0205080a8663331Ef",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "TOKEN/ETH",
+    "reserves": {
+      "TOKEN": "189179873018486219",
+      "WETH": "281734367699911607784"
+    },
+    "reserves_adjusted": {
+      "TOKEN": 189179873.01848623,
+      "WETH": 281.7343676999116
+    },
+    "price": 1.489240706237186e-06,
+    "last_update": 1782579923,
+    "token0": "TOKEN",
+    "token1": "WETH",
+    "token0_address": "0x4507cEf57C46789eF8d1a19EA45f4216bae2B528",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 9,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "LINK/ETH",
+    "reserves": {
+      "LINK": "59448187134195971302261",
+      "WETH": "276200985988669699437"
+    },
+    "reserves_adjusted": {
+      "LINK": 59448.18713419597,
+      "WETH": 276.2009859886697
+    },
+    "price": 0.004646079204487508,
+    "last_update": 1782579863,
+    "token0": "LINK",
+    "token1": "WETH",
+    "token0_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "CAGA/USDT",
+    "reserves": {
+      "CAGA": "17151312011136697333231173161",
+      "USDT": "436500394267"
+    },
+    "reserves_adjusted": {
+      "CAGA": 17151312011.136698,
+      "USDT": 436500.394267
+    },
+    "price": 2.5449971056649858e-05,
+    "last_update": 1782321875,
+    "token0": "CAGA",
+    "token1": "USDT",
+    "token0_address": "0xbddc20ed7978B7d59eF190962F441cD18C14e19f",
+    "token1_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "PEPECOIN/ETH",
+    "reserves": {
+      "pepecoin": "8269033058289028556556779",
+      "WETH": "273742025020235436064"
+    },
+    "reserves_adjusted": {
+      "pepecoin": 8269033.058289029,
+      "WETH": 273.7420250202354
+    },
+    "price": 3.310447824922304e-05,
+    "last_update": 1782582479,
+    "token0": "pepecoin",
+    "token1": "WETH",
+    "token0_address": "0xA9E8aCf069C58aEc8825542845Fd754e41a9489A",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "DUMMY/ETH",
+    "reserves": {
+      "DUMMY": "6609193276237174701243470414962",
+      "WETH": "239297364948549002200"
+    },
+    "reserves_adjusted": {
+      "DUMMY": 6609193276237.175,
+      "WETH": 239.297364948549
+    },
+    "price": 3.6206743387112537e-11,
+    "last_update": 1782567743,
+    "token0": "DUMMY",
+    "token1": "WETH",
+    "token0_address": "0x445bd590A01fe6709d4f13A8F579c1e4846921db",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "KISHU/ETH",
+    "reserves": {
+      "KISHU": "3416319390314872165789487",
+      "WETH": "266090134986331726937"
+    },
+    "reserves_adjusted": {
+      "KISHU": 3416319390314872.0,
+      "WETH": 266.09013498633175
+    },
+    "price": 7.788795618485982e-14,
+    "last_update": 1782583535,
+    "token0": "KISHU",
+    "token1": "WETH",
+    "token0_address": "0xA2b4C0Af19cC16a6CfAcCe81F192B024d625817D",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 9,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "STARL/ETH",
+    "reserves": {
+      "STARL": "4040744986449034936289633321457",
+      "WETH": "246373415985664903090"
+    },
+    "reserves_adjusted": {
+      "STARL": 4040744986449.035,
+      "WETH": 246.3734159856649
+    },
+    "price": 6.097227536305757e-11,
+    "last_update": 1782536495,
+    "token0": "STARL",
+    "token1": "WETH",
+    "token0_address": "0x8E6cd950Ad6ba651F6DD608Dc70e5886B1AA6B24",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "WTRX/USDC",
+    "reserves": {
+      "TRX": "1143607825425",
+      "USDC": "366186034162"
+    },
+    "reserves_adjusted": {
+      "TRX": 1143607.825425,
+      "USDC": 366186.034162
+    },
+    "price": 0.3202024557902216,
+    "last_update": 1782578747,
+    "token0": "TRX",
+    "token1": "USDC",
+    "token0_address": "0x50327c6c5a14DCaDE707ABad2E27eB517df87AB5",
+    "token1_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token0_decimals": 6,
+    "token1_decimals": 6,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "DSYNC/ETH",
+    "reserves": {
+      "WETH": "222292388451711708419",
+      "DSync": "66881724110108831073343730"
+    },
+    "reserves_adjusted": {
+      "WETH": 222.2923884517117,
+      "DSync": 66881724.11010883
+    },
+    "price": 300872.75851389515,
+    "last_update": 1782582911,
+    "token0": "WETH",
+    "token1": "DSync",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xf94e7d0710709388bCe3161C32B4eEA56d3f91CC",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "APU/ETH",
+    "reserves": {
+      "APU": "19811624828988893533925145109",
+      "WETH": "228041248681200093139"
+    },
+    "reserves_adjusted": {
+      "APU": 19811624828.988895,
+      "WETH": 228.0412486812001
+    },
+    "price": 1.151047683618176e-08,
+    "last_update": 1782583199,
+    "token0": "APU",
+    "token1": "WETH",
+    "token0_address": "0x594DaaD7D77592a2b97b725A7AD59D7E188b5bFa",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "MONGOOSE/ETH",
+    "reserves": {
+      "MONGOOSE": "51129500491437101113006549289714",
+      "WETH": "208123754802231868304"
+    },
+    "reserves_adjusted": {
+      "MONGOOSE": 5.1129500491437104e+22,
+      "WETH": 208.12375480223187
+    },
+    "price": 4.070521964850553e-21,
+    "last_update": 1782298403,
+    "token0": "MONGOOSE",
+    "token1": "WETH",
+    "token0_address": "0xa1817B6d8D890F3943b61648992730373B71f156",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 9,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "ANDY/ETH",
+    "reserves": {
+      "ANDY": "85535418613378264553621085384",
+      "WETH": "221828249295511317648"
+    },
+    "reserves_adjusted": {
+      "ANDY": 85535418613.37827,
+      "WETH": 221.8282492955113
+    },
+    "price": 2.593408121355894e-09,
+    "last_update": 1782575411,
+    "token0": "ANDY",
+    "token1": "WETH",
+    "token0_address": "0x68BbEd6A47194EFf1CF514B50Ea91895597fc91E",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "MYX/ETH",
+    "reserves": {
+      "MYX": "561257534609598362572612579",
+      "WETH": "206510088306268340599"
+    },
+    "reserves_adjusted": {
+      "MYX": 561257534.6095984,
+      "WETH": 206.51008830626833
+    },
+    "price": 3.6794176571707564e-07,
+    "last_update": 1782312155,
+    "token0": "MYX",
+    "token1": "WETH",
+    "token0_address": "0x2129fF6000b95A973236020BCd2b2006B0D8E019",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "VOLT/ETH",
+    "reserves": {
+      "VOLT": "9077668345217708551155",
+      "WETH": "214116496355240954254"
+    },
+    "reserves_adjusted": {
+      "VOLT": 9077668345217.709,
+      "WETH": 214.11649635524094
+    },
+    "price": 2.3587168886605296e-11,
+    "last_update": 1782583007,
+    "token0": "VOLT",
+    "token1": "WETH",
+    "token0_address": "0x7f792db54B0e580Cdc755178443f0430Cf799aCa",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 9,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "PAAL/ETH",
+    "reserves": {
+      "$PAAL": "63172126594040134",
+      "WETH": "214283978206430214647"
+    },
+    "reserves_adjusted": {
+      "$PAAL": 63172126.59404013,
+      "WETH": 214.28397820643022
+    },
+    "price": 3.392065294611223e-06,
+    "last_update": 1782583031,
+    "token0": "$PAAL",
+    "token1": "WETH",
+    "token0_address": "0x14feE680690900BA0ccCfC76AD70Fd1b95D10e16",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 9,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "STETH/ETH",
+    "reserves": {
+      "stETH": "208717137521489304706",
+      "WETH": "208082246085453806706"
+    },
+    "reserves_adjusted": {
+      "stETH": 208.7171375214893,
+      "WETH": 208.08224608545382
+    },
+    "price": 0.9969581250319222,
+    "last_update": 1782581675,
+    "token0": "stETH",
+    "token1": "WETH",
+    "token0_address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "FOUR/ETH",
+    "reserves": {
+      "FOUR": "329972135616395639374559152583",
+      "WETH": "202061808644718557890"
+    },
+    "reserves_adjusted": {
+      "FOUR": 329972135616.3956,
+      "WETH": 202.06180864471855
+    },
+    "price": 6.123602172264104e-10,
+    "last_update": 1782528947,
+    "token0": "FOUR",
+    "token1": "WETH",
+    "token0_address": "0x244b797d622D4DEe8b188b03546ACAAbD0Cf91A0",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "OIL/USDC",
+    "reserves": {
+      "OIL": "11853279379479898400439605",
+      "USDC": "307896055607"
+    },
+    "reserves_adjusted": {
+      "OIL": 11853279.379479898,
+      "USDC": 307896.055607
+    },
+    "price": 0.025975600991909632,
+    "last_update": 1782516383,
+    "token0": "OIL",
+    "token1": "USDC",
+    "token0_address": "0x0275E1001e293C46CFe158B3702AADe0B99f88a5",
+    "token1_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "ETHY/ETH",
+    "reserves": {
+      "WETH": "175288196831504856955",
+      "ETHY": "177707694565223553326000"
+    },
+    "reserves_adjusted": {
+      "WETH": 175.28819683150485,
+      "ETHY": 177707.69456522356
+    },
+    "price": 1013.8029700656026,
+    "last_update": 1782111359,
+    "token0": "WETH",
+    "token1": "ETHY",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xd1AFBCCC9A2c2187ea544363B986EA0AB6EF08B5",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "UFO/ETH",
+    "reserves": {
+      "UFO": "11055799144730421189080904864236",
+      "WETH": "192477439993967836683"
+    },
+    "reserves_adjusted": {
+      "UFO": 11055799144730.422,
+      "WETH": 192.47743999396783
+    },
+    "price": 1.7409636108097104e-11,
+    "last_update": 1782562451,
+    "token0": "UFO",
+    "token1": "WETH",
+    "token0_address": "0x249e38Ea4102D0cf8264d3701f1a0E39C4f2DC3B",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "LADYS/ETH",
+    "reserves": {
+      "LADYS": "53252270977257830215802931531256",
+      "WETH": "189244237428383545058"
+    },
+    "reserves_adjusted": {
+      "LADYS": 53252270977257.83,
+      "WETH": 189.24423742838354
+    },
+    "price": 3.5537308354267765e-12,
+    "last_update": 1782583595,
+    "token0": "LADYS",
+    "token1": "WETH",
+    "token0_address": "0x12970E6868f88f6557B76120662c1B3E50A646bf",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "GROK/ETH",
+    "reserves": {
+      "GROK": "855766904991337389",
+      "WETH": "181067494041417873431"
+    },
+    "reserves_adjusted": {
+      "GROK": 855766904.9913374,
+      "WETH": 181.06749404141786
+    },
+    "price": 2.1158506245722453e-07,
+    "last_update": 1782579743,
+    "token0": "GROK",
+    "token1": "WETH",
+    "token0_address": "0x8390a1DA07E376ef7aDd4Be859BA74Fb83aA02D5",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 9,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "GME/ETH",
+    "reserves": {
+      "WETH": "180215669641827107676",
+      "GME": "37533574164442430792"
+    },
+    "reserves_adjusted": {
+      "WETH": 180.2156696418271,
+      "GME": 37533574164.44243
+    },
+    "price": 208270314.33525848,
+    "last_update": 1782578975,
+    "token0": "WETH",
+    "token1": "GME",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xc56C7A0eAA804f854B536A5F3D5f49D2EC4B12b8",
+    "token0_decimals": 18,
+    "token1_decimals": 9,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "SAITABIT/WBTC",
+    "reserves": {
+      "WBTC": "369112762",
+      "SAITABIT": "493271176241480077372233312"
+    },
+    "reserves_adjusted": {
+      "WBTC": 3.69112762,
+      "SAITABIT": 493271176.24148005
+    },
+    "price": 133636987.66976799,
+    "last_update": 1779155435,
+    "token0": "WBTC",
+    "token1": "SAITABIT",
+    "token0_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "token1_address": "0x927402ab67c0CDA3c187E9DFE34554AC581441f2",
+    "token0_decimals": 8,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "UNISTAKE/ETH",
+    "reserves": {
+      "UNISTAKE": "198996958837492979186807330",
+      "WETH": "170475356150305671588"
+    },
+    "reserves_adjusted": {
+      "UNISTAKE": 198996958.83749297,
+      "WETH": 170.47535615030569
+    },
+    "price": 8.566731730283431e-07,
+    "last_update": 1782380015,
+    "token0": "UNISTAKE",
+    "token1": "WETH",
+    "token0_address": "0x9Ed8e7C9604790F7Ec589F99b94361d8AAB64E5E",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "KEKIUS/ETH",
+    "reserves": {
+      "KEKIUS": "66554526320052146",
+      "WETH": "184103588744705522996"
+    },
+    "reserves_adjusted": {
+      "KEKIUS": 66554526.32005215,
+      "WETH": 184.10358874470552
+    },
+    "price": 2.766206882149158e-06,
+    "last_update": 1782583307,
+    "token0": "KEKIUS",
+    "token1": "WETH",
+    "token0_address": "0x26E550AC11B26f78A04489d5F20f24E3559f7Dd9",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 9,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "VLT/ETH",
+    "reserves": {
+      "VLT": "911096620061287680579988",
+      "WETH": "176118585057965144895"
+    },
+    "reserves_adjusted": {
+      "VLT": 911096.6200612877,
+      "WETH": 176.11858505796513
+    },
+    "price": 0.0001933039605021452,
+    "last_update": 1782571307,
+    "token0": "VLT",
+    "token1": "WETH",
+    "token0_address": "0x6b785a0322126826d8226d77e173d75DAfb84d11",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "AUDIO/ETH",
+    "reserves": {
+      "AUDIO": "20109550049392577178538234",
+      "WETH": "170224749757262757619"
+    },
+    "reserves_adjusted": {
+      "AUDIO": 20109550.049392577,
+      "WETH": 170.22474975726277
+    },
+    "price": 8.464871135314364e-06,
+    "last_update": 1782581843,
+    "token0": "AUDIO",
+    "token1": "WETH",
+    "token0_address": "0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "PUPPIES/ETH",
+    "reserves": {
+      "WETH": "169658663906021199016",
+      "puppies": "2440103017583311595907"
+    },
+    "reserves_adjusted": {
+      "WETH": 169.6586639060212,
+      "puppies": 2440103017583.3115
+    },
+    "price": 14382425049.244492,
+    "last_update": 1782582659,
+    "token0": "WETH",
+    "token1": "puppies",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xCF91b70017eABDE82c9671E30e5502D312eA6eb2",
+    "token0_decimals": 18,
+    "token1_decimals": 9,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "UNIBOT/ETH",
+    "reserves": {
+      "WETH": "173223230272710921188",
+      "UNIBOT": "466017174497864297457121"
+    },
+    "reserves_adjusted": {
+      "WETH": 173.2232302727109,
+      "UNIBOT": 466017.1744978643
+    },
+    "price": 2690.2695081034944,
+    "last_update": 1782544079,
+    "token0": "WETH",
+    "token1": "UNIBOT",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "DPI/ETH",
+    "reserves": {
+      "DPI": "7558658679151487440670",
+      "WETH": "169340159334159536950"
+    },
+    "reserves_adjusted": {
+      "DPI": 7558.658679151487,
+      "WETH": 169.34015933415952
+    },
+    "price": 0.02240346687451816,
+    "last_update": 1782573503,
+    "token0": "DPI",
+    "token1": "WETH",
+    "token0_address": "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "NATI/ETH",
+    "reserves": {
+      "NATI": "2302561450228133276654023790562",
+      "WETH": "161393915507941521808"
+    },
+    "reserves_adjusted": {
+      "NATI": 2302561450228.1333,
+      "WETH": 161.39391550794153
+    },
+    "price": 7.009320662949122e-11,
+    "last_update": 1782505379,
+    "token0": "NATI",
+    "token1": "WETH",
+    "token0_address": "0x0B9aE6b1D4f0EEeD904D1CEF68b9bd47499f3fFF",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "JESUS/ETH",
+    "reserves": {
+      "JESUS": "25018252110504024895553890323484",
+      "WETH": "169980405531245363625"
+    },
+    "reserves_adjusted": {
+      "JESUS": 25018252110504.023,
+      "WETH": 169.98040553124537
+    },
+    "price": 6.794255840913776e-12,
+    "last_update": 1782578999,
+    "token0": "JESUS",
+    "token1": "WETH",
+    "token0_address": "0xba386A4Ca26B85FD057ab1Ef86e3DC7BdeB5ce70",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "MASK/USDC",
+    "reserves": {
+      "MASK": "669601329842970401547334",
+      "USDC": "259621814540"
+    },
+    "reserves_adjusted": {
+      "MASK": 669601.3298429704,
+      "USDC": 259621.81454
+    },
+    "price": 0.3877259541896138,
+    "last_update": 1782583379,
+    "token0": "MASK",
+    "token1": "USDC",
+    "token0_address": "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074",
+    "token1_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "WOJAK/ETH__0x0F23d49b",
+    "reserves": {
+      "WOJAK": "23319923092681096211559786149",
+      "WETH": "165070103305992212837"
+    },
+    "reserves_adjusted": {
+      "WOJAK": 23319923092.681095,
+      "WETH": 165.0701033059922
+    },
+    "price": 7.078501187587496e-09,
+    "last_update": 1782575771,
+    "token0": "WOJAK",
+    "token1": "WETH",
+    "token0_address": "0x5026F006B85729a8b14553FAE6af249aD16c9aaB",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "CHKN/ETH",
+    "reserves": {
+      "WETH": "162138263722542176428",
+      "CHKN": "22521054649832993490974856004099"
+    },
+    "reserves_adjusted": {
+      "WETH": 162.13826372254218,
+      "CHKN": 22521054649832.992
+    },
+    "price": 138900307261.04214,
+    "last_update": 1782575339,
+    "token0": "WETH",
+    "token1": "CHKN",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xD55210Bb6898C021a19de1F58d27b71f095921Ee",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "HERA/USDC",
+    "reserves": {
+      "USDC": "247899888573",
+      "HERA": "182749033197138949854969"
+    },
+    "reserves_adjusted": {
+      "USDC": 247899.888573,
+      "HERA": 182749.03319713895
+    },
+    "price": 0.737188847680035,
+    "last_update": 1782443063,
+    "token0": "USDC",
+    "token1": "HERA",
+    "token0_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token1_address": "0xA2c2C937333165d4c5f2dC5f31a43E1239FeCfeB",
+    "token0_decimals": 6,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "M87/ETH",
+    "reserves": {
+      "M87": "50777966538477672002991795849",
+      "WETH": "156053456888734103717"
+    },
+    "reserves_adjusted": {
+      "M87": 50777966538.47767,
+      "WETH": 156.0534568887341
+    },
+    "price": 3.07325140266266e-09,
+    "last_update": 1782582887,
+    "token0": "M87",
+    "token1": "WETH",
+    "token0_address": "0x80122c6a83C8202Ea365233363d3f4837D13e888",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "GOOCH/ETH",
+    "reserves": {
+      "gooch": "3927571009171595810542543141",
+      "WETH": "147314106928751083671"
+    },
+    "reserves_adjusted": {
+      "gooch": 3927571009.1715956,
+      "WETH": 147.31410692875107
+    },
+    "price": 3.750768772474023e-08,
+    "last_update": 1781331143,
+    "token0": "gooch",
+    "token1": "WETH",
+    "token0_address": "0x6d3D490964205c8bC8DeD39e48e88E8Fde45b41f",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "WOO/ETH",
+    "reserves": {
+      "WOO": "21711923629893275035761482",
+      "WETH": "152381900668580176575"
+    },
+    "reserves_adjusted": {
+      "WOO": 21711923.629893277,
+      "WETH": 152.3819006685802
+    },
+    "price": 7.018350988430094e-06,
+    "last_update": 1782582647,
+    "token0": "WOO",
+    "token1": "WETH",
+    "token0_address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "FTMX/ETH",
+    "reserves": {
+      "FTMX": "27525789491998788472786796",
+      "WETH": "151917745937747838661"
+    },
+    "reserves_adjusted": {
+      "FTMX": 27525789.491998788,
+      "WETH": 151.91774593774784
+    },
+    "price": 5.519105854598916e-06,
+    "last_update": 1782577775,
+    "token0": "FTMX",
+    "token1": "WETH",
+    "token0_address": "0x45510DB2481353178db5ABb87C96805fADad0724",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "PEIPEI/ETH",
+    "reserves": {
+      "PEIPEI": "38902816772870057619731587779981",
+      "WETH": "154610189093510268308"
+    },
+    "reserves_adjusted": {
+      "PEIPEI": 38902816772870.055,
+      "WETH": 154.61018909351026
+    },
+    "price": 3.9742672104229715e-12,
+    "last_update": 1782582875,
+    "token0": "PEIPEI",
+    "token1": "WETH",
+    "token0_address": "0x3fFEea07a27Fab7ad1df5297fa75e77a43CB5790",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "WOLF/ETH",
+    "reserves": {
+      "WOLF": "47958743408198586657839486917",
+      "WETH": "153948300989394052332"
+    },
+    "reserves_adjusted": {
+      "WOLF": 47958743408.198586,
+      "WETH": 153.94830098939406
+    },
+    "price": 3.210015318355411e-09,
+    "last_update": 1782575495,
+    "token0": "WOLF",
+    "token1": "WETH",
+    "token0_address": "0x67466BE17df832165F8C80a5A120CCc652bD7E69",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "AMPL/ETH",
+    "reserves": {
+      "WETH": "149240496412368082507",
+      "AMPL": "193470408317665"
+    },
+    "reserves_adjusted": {
+      "WETH": 149.2404964123681,
+      "AMPL": 193470.408317665
+    },
+    "price": 1296.3666897963456,
+    "last_update": 1782577463,
+    "token0": "WETH",
+    "token1": "AMPL",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+    "token0_decimals": 18,
+    "token1_decimals": 9,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "QRX/ETH",
+    "reserves": {
+      "QRX": "78433504645286816073821768",
+      "WETH": "150356282297788332797"
+    },
+    "reserves_adjusted": {
+      "QRX": 78433504.64528681,
+      "WETH": 150.35628229778834
+    },
+    "price": 1.9169904873914554e-06,
+    "last_update": 1782573107,
+    "token0": "QRX",
+    "token1": "WETH",
+    "token0_address": "0x6e0daDE58D2d89eBBe7aFc384e3E4f15b70b14D8",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "ASTO/USDC",
+    "reserves": {
+      "ASTO": "87574015570168538615470446",
+      "USDC": "229898991357"
+    },
+    "reserves_adjusted": {
+      "ASTO": 87574015.57016854,
+      "USDC": 229898.991357
+    },
+    "price": 0.0026251964108325466,
+    "last_update": 1782580823,
+    "token0": "ASTO",
+    "token1": "USDC",
+    "token0_address": "0x823556202e86763853b40e9cDE725f412e294689",
+    "token1_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "UNISWAP_V2"
+  },
+  {
+    "pool": "DELTA/ETH",
+    "reserves": {
+      "DELTA": "5330542760652064413423763",
+      "WETH": "1287434046771628729921"
+    },
+    "reserves_adjusted": {
+      "DELTA": 5330542.760652064,
+      "WETH": 1287.4340467716288
+    },
+    "price": 0.0002415202549869691,
+    "last_update": 1782518843,
+    "token0": "DELTA",
+    "token1": "WETH",
+    "token0_address": "0x9EA3b5b4EC044b70375236A281986106457b20EF",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "WBTC/ETH",
+    "reserves": {
+      "WBTC": "1486783779",
+      "WETH": "563177694394445691798"
+    },
+    "reserves_adjusted": {
+      "WBTC": 14.86783779,
+      "WETH": 563.1776943944457
+    },
+    "price": 37.87892377822651,
+    "last_update": 1782574859,
+    "token0": "WBTC",
+    "token1": "WETH",
+    "token0_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 8,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ILV/ETH",
+    "reserves": {
+      "ILV": "259798570489878031346282",
+      "WETH": "476458836753918920498"
+    },
+    "reserves_adjusted": {
+      "ILV": 259798.57048987804,
+      "WETH": 476.45883675391894
+    },
+    "price": 0.00183395480527666,
+    "last_update": 1782582107,
+    "token0": "ILV",
+    "token1": "WETH",
+    "token0_address": "0x767FE9EDC9E0dF98E07454847909b5E959D7ca0E",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/RAIL",
+    "reserves": {
+      "WETH": "255784518573715722664",
+      "RAIL": "188468155078310926582848"
+    },
+    "reserves_adjusted": {
+      "WETH": 255.78451857371573,
+      "RAIL": 188468.15507831093
+    },
+    "price": 736.8239334000014,
+    "last_update": 1782579011,
+    "token0": "WETH",
+    "token1": "RAIL",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xe76C6c83af64e4C60245D8C7dE953DF673a7A33D",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/ALCX",
+    "reserves": {
+      "WETH": "182238359053919330719",
+      "ALCX": "109098340618157988854322"
+    },
+    "reserves_adjusted": {
+      "WETH": 182.23835905391934,
+      "ALCX": 109098.34061815799
+    },
+    "price": 598.6573912569021,
+    "last_update": 1782583631,
+    "token0": "WETH",
+    "token1": "ALCX",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/USDT",
+    "reserves": {
+      "WETH": "157108582227149484059",
+      "USDT": "250120388586"
+    },
+    "reserves_adjusted": {
+      "WETH": 157.1085822271495,
+      "USDT": 250120.388586
+    },
+    "price": 1592.0224410425453,
+    "last_update": 1782583535,
+    "token0": "WETH",
+    "token1": "USDT",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/NFD",
+    "reserves": {
+      "WETH": "157458532330054614858",
+      "NFD": "13131135640253718205889430823"
+    },
+    "reserves_adjusted": {
+      "WETH": 157.45853233005462,
+      "NFD": 13131135640.253717
+    },
+    "price": 83394246.38309889,
+    "last_update": 1782577547,
+    "token0": "WETH",
+    "token1": "NFD",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xDFDb7f72c1F195C5951a234e8DB9806EB0635346",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "USDC/QUARTZ",
+    "reserves": {
+      "USDC": "243132574865",
+      "QUARTZ": "3612021681899116557587487"
+    },
+    "reserves_adjusted": {
+      "USDC": 243132.574865,
+      "QUARTZ": 3612021.6818991164
+    },
+    "price": 14.856181586958066,
+    "last_update": 1781499743,
+    "token0": "USDC",
+    "token1": "QUARTZ",
+    "token0_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token1_address": "0xbA8A621b4a54e61C442F5Ec623687e2a942225ef",
+    "token0_decimals": 6,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "USDC/KIRA",
+    "reserves": {
+      "USDC": "151804870262",
+      "KIRA": "19007298298691291"
+    },
+    "reserves_adjusted": {
+      "USDC": 151804.870262,
+      "KIRA": 190072982.9869129
+    },
+    "price": 1252.0875164206916,
+    "last_update": 1782511367,
+    "token0": "USDC",
+    "token1": "KIRA",
+    "token0_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token1_address": "0xf98AB0874b13a7Fdc39D7295DEdd49850A5D426B",
+    "token0_decimals": 6,
+    "token1_decimals": 8,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "TOKE/ETH",
+    "reserves": {
+      "TOKE": "4428784935643660776293502",
+      "WETH": "84402126680548967918"
+    },
+    "reserves_adjusted": {
+      "TOKE": 4428784.935643661,
+      "WETH": 84.40212668054897
+    },
+    "price": 1.905762594188429e-05,
+    "last_update": 1782581519,
+    "token0": "TOKE",
+    "token1": "WETH",
+    "token0_address": "0x2e9d63788249371f1DFC918a52f8d799F4a38C94",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/CIG",
+    "reserves": {
+      "WETH": "72810126490754563839",
+      "CIG": "337615448199348884156035137"
+    },
+    "reserves_adjusted": {
+      "WETH": 72.81012649075457,
+      "CIG": 337615448.19934887
+    },
+    "price": 4636929.840277359,
+    "last_update": 1782138011,
+    "token0": "WETH",
+    "token1": "CIG",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xCB56b52316041A62B6b5D0583DcE4A8AE7a3C629",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "MEEB/ETH",
+    "reserves": {
+      "MEEB": "194794355235861932591",
+      "WETH": "73889956692163513216"
+    },
+    "reserves_adjusted": {
+      "MEEB": 194.79435523586193,
+      "WETH": 73.88995669216351
+    },
+    "price": 0.3793228843961915,
+    "last_update": 1782264971,
+    "token0": "MEEB",
+    "token1": "WETH",
+    "token0_address": "0x641927E970222B10b2E8CDBC96b1B4F427316f16",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "USDC/ETH",
+    "reserves": {
+      "USDC": "112333491520",
+      "WETH": "70551033935228978042"
+    },
+    "reserves_adjusted": {
+      "USDC": 112333.49152,
+      "WETH": 70.55103393522897
+    },
+    "price": 0.0006280498627844037,
+    "last_update": 1782583391,
+    "token0": "USDC",
+    "token1": "WETH",
+    "token0_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 6,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "DAI/RAIL",
+    "reserves": {
+      "DAI": "95031943425660283923720",
+      "RAIL": "43909971784546864430881"
+    },
+    "reserves_adjusted": {
+      "DAI": 95031.94342566028,
+      "RAIL": 43909.97178454686
+    },
+    "price": 0.46205486494018605,
+    "last_update": 1782579923,
+    "token0": "DAI",
+    "token1": "RAIL",
+    "token0_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "token1_address": "0xe76C6c83af64e4C60245D8C7dE953DF673a7A33D",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "DAI/ETH",
+    "reserves": {
+      "DAI": "90274261311972131933949",
+      "WETH": "56788611740063838377"
+    },
+    "reserves_adjusted": {
+      "DAI": 90274.26131197214,
+      "WETH": 56.788611740063835
+    },
+    "price": 0.0006290675870923195,
+    "last_update": 1782581375,
+    "token0": "DAI",
+    "token1": "WETH",
+    "token0_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "CVX/ETH",
+    "reserves": {
+      "CVX": "78310219098246643742310",
+      "WETH": "54872274739521211672"
+    },
+    "reserves_adjusted": {
+      "CVX": 78310.21909824664,
+      "WETH": 54.87227473952121
+    },
+    "price": 0.0007007038847724255,
+    "last_update": 1782578531,
+    "token0": "CVX",
+    "token1": "WETH",
+    "token0_address": "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "SUSHI/ETH",
+    "reserves": {
+      "SUSHI": "557509091816853711301718",
+      "WETH": "55566762136248814611"
+    },
+    "reserves_adjusted": {
+      "SUSHI": 557509.0918168537,
+      "WETH": 55.56676213624881
+    },
+    "price": 9.966969678496821e-05,
+    "last_update": 1782583763,
+    "token0": "SUSHI",
+    "token1": "WETH",
+    "token0_address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "SYN/ETH",
+    "reserves": {
+      "SYN": "252035006864353961167791",
+      "WETH": "47529941461661935572"
+    },
+    "reserves_adjusted": {
+      "SYN": 252035.00686435396,
+      "WETH": 47.529941461661934
+    },
+    "price": 0.0001885846813623105,
+    "last_update": 1782583691,
+    "token0": "SYN",
+    "token1": "WETH",
+    "token0_address": "0x0f2D719407FdBeFF09D87557AbB7232601FD9F29",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "SPELL/ETH",
+    "reserves": {
+      "SPELL": "820868242628501803209923699",
+      "WETH": "51495911383926805025"
+    },
+    "reserves_adjusted": {
+      "SPELL": 820868242.6285018,
+      "WETH": 51.4959113839268
+    },
+    "price": 6.273346769882554e-08,
+    "last_update": 1782581111,
+    "token0": "SPELL",
+    "token1": "WETH",
+    "token0_address": "0x090185f2135308BaD17527004364eBcC2D37e5F6",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ICHI/ETH",
+    "reserves": {
+      "ICHI": "797609023679370",
+      "WETH": "43197798579933111068"
+    },
+    "reserves_adjusted": {
+      "ICHI": 797609.02367937,
+      "WETH": 43.197798579933114
+    },
+    "price": 5.415911467583666e-05,
+    "last_update": 1782583475,
+    "token0": "ICHI",
+    "token1": "WETH",
+    "token0_address": "0x903bEF1736CDdf2A537176cf3C64579C3867A881",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 9,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "XSUSHI/ETH",
+    "reserves": {
+      "xSUSHI": "267250325612003852433758",
+      "WETH": "41723115699861151679"
+    },
+    "reserves_adjusted": {
+      "xSUSHI": 267250.32561200386,
+      "WETH": 41.723115699861154
+    },
+    "price": 0.0001561199807869836,
+    "last_update": 1782582839,
+    "token0": "xSUSHI",
+    "token1": "WETH",
+    "token0_address": "0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "LON/USDT",
+    "reserves": {
+      "LON": "365138743563768743299974",
+      "USDT": "64494928796"
+    },
+    "reserves_adjusted": {
+      "LON": 365138.74356376874,
+      "USDT": 64494.928796
+    },
+    "price": 0.17663129408434425,
+    "last_update": 1782583247,
+    "token0": "LON",
+    "token1": "USDT",
+    "token0_address": "0x0000000000095413afC295d19EDeb1Ad7B71c952",
+    "token1_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "STKATOM/ETH",
+    "reserves": {
+      "stkATOM": "3503044523",
+      "WETH": "24765039201391159557"
+    },
+    "reserves_adjusted": {
+      "stkATOM": 3503.044523,
+      "WETH": 24.76503920139116
+    },
+    "price": 0.00706957591854483,
+    "last_update": 1777358795,
+    "token0": "stkATOM",
+    "token1": "WETH",
+    "token0_address": "0x44017598f2AF1bD733F9D87b5017b4E7c1B28DDE",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 6,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "IQ/ETH",
+    "reserves": {
+      "IQ": "63345143811933482263117268",
+      "WETH": "29658751268433915829"
+    },
+    "reserves_adjusted": {
+      "IQ": 63345143.81193348,
+      "WETH": 29.658751268433917
+    },
+    "price": 4.682087605087504e-07,
+    "last_update": 1782579923,
+    "token0": "IQ",
+    "token1": "WETH",
+    "token0_address": "0x579CEa1889991f68aCc35Ff5c3dd0621fF29b0C9",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "FTX TOKEN/ETH",
+    "reserves": {
+      "FTX Token": "189974015489948129689216",
+      "WETH": "28069098320913733373"
+    },
+    "reserves_adjusted": {
+      "FTX Token": 189974.01548994813,
+      "WETH": 28.069098320913735
+    },
+    "price": 0.0001477523031164171,
+    "last_update": 1782583595,
+    "token0": "FTX Token",
+    "token1": "WETH",
+    "token0_address": "0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/SHX",
+    "reserves": {
+      "WETH": "27641320805969469895",
+      "SHX": "109732050952587"
+    },
+    "reserves_adjusted": {
+      "WETH": 27.64132080596947,
+      "SHX": 10973205.0952587
+    },
+    "price": 396985.55551256094,
+    "last_update": 1782581039,
+    "token0": "WETH",
+    "token1": "SHX",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xEe7527841A932d2912224E20a405e1a1FF747084",
+    "token0_decimals": 18,
+    "token1_decimals": 7,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "YFI/ETH",
+    "reserves": {
+      "YFI": "26040782517204153726",
+      "WETH": "27141301961559974901"
+    },
+    "reserves_adjusted": {
+      "YFI": 26.040782517204153,
+      "WETH": 27.141301961559975
+    },
+    "price": 1.0422613814937685,
+    "last_update": 1782582767,
+    "token0": "YFI",
+    "token1": "WETH",
+    "token0_address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/ENS",
+    "reserves": {
+      "WETH": "25459496496241889667",
+      "ENS": "9560744191606874270699"
+    },
+    "reserves_adjusted": {
+      "WETH": 25.45949649624189,
+      "ENS": 9560.744191606875
+    },
+    "price": 375.52762259136387,
+    "last_update": 1782583607,
+    "token0": "WETH",
+    "token1": "ENS",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "FRAX/ETH",
+    "reserves": {
+      "FRAX": "39417426091105034757944",
+      "WETH": "24513604930995139274"
+    },
+    "reserves_adjusted": {
+      "FRAX": 39417.42609110504,
+      "WETH": 24.51360493099514
+    },
+    "price": 0.0006218976569991437,
+    "last_update": 1782583379,
+    "token0": "FRAX",
+    "token1": "WETH",
+    "token0_address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "COMP/ETH",
+    "reserves": {
+      "COMP": "1958751442564354870669",
+      "WETH": "19588411271705482555"
+    },
+    "reserves_adjusted": {
+      "COMP": 1958.7514425643549,
+      "WETH": 19.588411271705482
+    },
+    "price": 0.010000457866190903,
+    "last_update": 1782582479,
+    "token0": "COMP",
+    "token1": "WETH",
+    "token0_address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "AAVE/ETH",
+    "reserves": {
+      "AAVE": "317373327892842523876",
+      "WETH": "18873378883149112444"
+    },
+    "reserves_adjusted": {
+      "AAVE": 317.3733278928425,
+      "WETH": 18.873378883149112
+    },
+    "price": 0.05946743857921638,
+    "last_update": 1782583415,
+    "token0": "AAVE",
+    "token1": "WETH",
+    "token0_address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "MULTI/ETH",
+    "reserves": {
+      "MULTI": "356496047927341418649617",
+      "WETH": "18795588440713703282"
+    },
+    "reserves_adjusted": {
+      "MULTI": 356496.0479273414,
+      "WETH": 18.795588440713704
+    },
+    "price": 5.272313269667576e-05,
+    "last_update": 1782572051,
+    "token0": "MULTI",
+    "token1": "WETH",
+    "token0_address": "0x65Ef703f5594D2573eb71Aaf55BC0CB548492df4",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "BTC2X-FLI/WBTC",
+    "reserves": {
+      "BTC2x-FLI": "2452645953113060496090",
+      "WBTC": "49137657"
+    },
+    "reserves_adjusted": {
+      "BTC2x-FLI": 2452.6459531130604,
+      "WBTC": 0.49137657
+    },
+    "price": 0.00020034549600455475,
+    "last_update": 1782551291,
+    "token0": "BTC2x-FLI",
+    "token1": "WBTC",
+    "token0_address": "0x0B498ff89709d3838a063f1dFA463091F9801c2b",
+    "token1_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "token0_decimals": 18,
+    "token1_decimals": 8,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "UMA/ETH",
+    "reserves": {
+      "UMA": "74352479543915612190871",
+      "WETH": "17984886034511227049"
+    },
+    "reserves_adjusted": {
+      "UMA": 74352.47954391562,
+      "WETH": 17.984886034511227
+    },
+    "price": 0.0002418868361194144,
+    "last_update": 1782582047,
+    "token0": "UMA",
+    "token1": "WETH",
+    "token0_address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "FODL/USDC",
+    "reserves": {
+      "FODL": "101831461021476383392097593",
+      "USDC": "28432336513"
+    },
+    "reserves_adjusted": {
+      "FODL": 101831461.02147639,
+      "USDC": 28432.336513
+    },
+    "price": 0.00027920974743751915,
+    "last_update": 1782573071,
+    "token0": "FODL",
+    "token1": "USDC",
+    "token0_address": "0x4C2e59D098DF7b6cBaE0848d66DE2f8A4889b9C3",
+    "token1_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "RAIL/RENBTC",
+    "reserves": {
+      "RAIL": "26248137775622106352535",
+      "renBTC": "416947472"
+    },
+    "reserves_adjusted": {
+      "RAIL": 26248.137775622108,
+      "renBTC": 4.16947472
+    },
+    "price": 0.00015884840119486073,
+    "last_update": 1782563855,
+    "token0": "RAIL",
+    "token1": "renBTC",
+    "token0_address": "0xe76C6c83af64e4C60245D8C7dE953DF673a7A33D",
+    "token1_address": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
+    "token0_decimals": 18,
+    "token1_decimals": 8,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/AMP",
+    "reserves": {
+      "WETH": "17299010785701221219",
+      "AMP": "57954916019112402391490955"
+    },
+    "reserves_adjusted": {
+      "WETH": 17.29901078570122,
+      "AMP": 57954916.0191124
+    },
+    "price": 3350186.7093473333,
+    "last_update": 1782574739,
+    "token0": "WETH",
+    "token1": "AMP",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xfF20817765cB7f73d4bde2e66e067E58D11095C2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "BAND/ETH",
+    "reserves": {
+      "BAND": "186219368183438483781396",
+      "WETH": "16963747135206318543"
+    },
+    "reserves_adjusted": {
+      "BAND": 186219.3681834385,
+      "WETH": 16.96374713520632
+    },
+    "price": 9.109550365618198e-05,
+    "last_update": 1782583487,
+    "token0": "BAND",
+    "token1": "WETH",
+    "token0_address": "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "PENDLE/ETH",
+    "reserves": {
+      "PENDLE": "19753084510999267567960",
+      "WETH": "15644594957777439872"
+    },
+    "reserves_adjusted": {
+      "PENDLE": 19753.084510999266,
+      "WETH": 15.64459495777744
+    },
+    "price": 0.000792007696269711,
+    "last_update": 1782582839,
+    "token0": "PENDLE",
+    "token1": "WETH",
+    "token0_address": "0x808507121B80c02388fAd14726482e061B8da827",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/AMPL",
+    "reserves": {
+      "WETH": "15099835191182927805",
+      "AMPL": "19580954867987"
+    },
+    "reserves_adjusted": {
+      "WETH": 15.099835191182928,
+      "AMPL": 19580.954867987
+    },
+    "price": 1296.7661315549112,
+    "last_update": 1782560483,
+    "token0": "WETH",
+    "token1": "AMPL",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
+    "token0_decimals": 18,
+    "token1_decimals": 9,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "DIA/USDC",
+    "reserves": {
+      "DIA": "220834218867369702440411",
+      "USDC": "23286496822"
+    },
+    "reserves_adjusted": {
+      "DIA": 220834.2188673697,
+      "USDC": 23286.496822
+    },
+    "price": 0.10544786465355527,
+    "last_update": 1782581855,
+    "token0": "DIA",
+    "token1": "USDC",
+    "token0_address": "0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419",
+    "token1_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "C98/ETH",
+    "reserves": {
+      "C98": "1842594976428728550555476",
+      "WETH": "14710060937011497172"
+    },
+    "reserves_adjusted": {
+      "C98": 1842594.9764287286,
+      "WETH": 14.710060937011496
+    },
+    "price": 7.983339325890363e-06,
+    "last_update": 1782576947,
+    "token0": "C98",
+    "token1": "WETH",
+    "token0_address": "0xAE12C5930881c53715B369ceC7606B70d8EB229f",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "GOG/ETH",
+    "reserves": {
+      "GOG": "10425986686956429671167038",
+      "WETH": "14852400964902999582"
+    },
+    "reserves_adjusted": {
+      "GOG": 10425986.68695643,
+      "WETH": 14.852400964903
+    },
+    "price": 1.4245559111910524e-06,
+    "last_update": 1782507611,
+    "token0": "GOG",
+    "token1": "WETH",
+    "token0_address": "0x9AB7bb7FdC60f4357ECFef43986818A2A3569c62",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "OHM/DAI",
+    "reserves": {
+      "OHM": "1405475000593",
+      "DAI": "22311490069569762622739"
+    },
+    "reserves_adjusted": {
+      "OHM": 1405.475000593,
+      "DAI": 22311.49006956976
+    },
+    "price": 15.874697209239628,
+    "last_update": 1782580127,
+    "token0": "OHM",
+    "token1": "DAI",
+    "token0_address": "0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5",
+    "token1_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "token0_decimals": 9,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "MIC/USDT",
+    "reserves": {
+      "MIC": "821533406916200888757112",
+      "USDT": "21942643340"
+    },
+    "reserves_adjusted": {
+      "MIC": 821533.4069162009,
+      "USDT": 21942.64334
+    },
+    "price": 0.026709374390953063,
+    "last_update": 1782557843,
+    "token0": "MIC",
+    "token1": "USDT",
+    "token0_address": "0x368B3a58B5f49392e5C9E4C998cb0bB966752E51",
+    "token1_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "NEAR/ETH",
+    "reserves": {
+      "NEAR": "11249644399779331230608420424",
+      "WETH": "13369082807404908189"
+    },
+    "reserves_adjusted": {
+      "NEAR": 11249.64439977933,
+      "WETH": 13.369082807404908
+    },
+    "price": 0.001188400480255816,
+    "last_update": 1782583943,
+    "token0": "NEAR",
+    "token1": "WETH",
+    "token0_address": "0x85F17Cf997934a597031b2E18a9aB6ebD4B9f6a4",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 24,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "EETH/ETH",
+    "reserves": {
+      "eETH": "12866625947418752696",
+      "WETH": "12811286039297049527"
+    },
+    "reserves_adjusted": {
+      "eETH": 12.866625947418752,
+      "WETH": 12.81128603929705
+    },
+    "price": 0.9956989572598243,
+    "last_update": 1782583535,
+    "token0": "eETH",
+    "token1": "WETH",
+    "token0_address": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "WBTC/DIGG",
+    "reserves": {
+      "WBTC": "33177454",
+      "DIGG": "133943237149"
+    },
+    "reserves_adjusted": {
+      "WBTC": 0.33177454,
+      "DIGG": 133.943237149
+    },
+    "price": 403.7176485844875,
+    "last_update": 1782501983,
+    "token0": "WBTC",
+    "token1": "DIGG",
+    "token0_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "token1_address": "0x798D1bE841a82a273720CE31c822C61a67a601C3",
+    "token0_decimals": 8,
+    "token1_decimals": 9,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "DDX/USDC",
+    "reserves": {
+      "DDX": "377521541126420934270975",
+      "USDC": "18761395744"
+    },
+    "reserves_adjusted": {
+      "DDX": 377521.54112642095,
+      "USDC": 18761.395744
+    },
+    "price": 0.04969622577832547,
+    "last_update": 1782389627,
+    "token0": "DDX",
+    "token1": "USDC",
+    "token0_address": "0x3A880652F47bFaa771908C07Dd8673A787dAEd3A",
+    "token1_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "RADAR/ETH",
+    "reserves": {
+      "RADAR": "80991245896116362467733091",
+      "WETH": "11520358380411773513"
+    },
+    "reserves_adjusted": {
+      "RADAR": 80991245.89611636,
+      "WETH": 11.520358380411773
+    },
+    "price": 1.4224201952873266e-07,
+    "last_update": 1782559247,
+    "token0": "RADAR",
+    "token1": "WETH",
+    "token0_address": "0x44709a920fCcF795fbC57BAA433cc3dd53C44DbE",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "VUSD/ETH",
+    "reserves": {
+      "VUSD": "17943784062562008099984",
+      "WETH": "11254713260911952402"
+    },
+    "reserves_adjusted": {
+      "VUSD": 17943.78406256201,
+      "WETH": 11.254713260911952
+    },
+    "price": 0.0006272207256658776,
+    "last_update": 1782583535,
+    "token0": "VUSD",
+    "token1": "WETH",
+    "token0_address": "0x677ddbd918637E5F2c79e164D402454dE7dA8619",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "OHM/DAI__0x34d7d7aa",
+    "reserves": {
+      "OHM": "336482791317",
+      "DAI": "16020975628930726242743"
+    },
+    "reserves_adjusted": {
+      "OHM": 336.482791317,
+      "DAI": 16020.975628930726
+    },
+    "price": 47.61306088262144,
+    "last_update": 1782574739,
+    "token0": "OHM",
+    "token1": "DAI",
+    "token0_address": "0x383518188C0C6d7730D91b2c03a03C837814a899",
+    "token1_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "token0_decimals": 9,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "BANK/ETH",
+    "reserves": {
+      "BANK": "140436715934175980159527",
+      "WETH": "10131233799065771129"
+    },
+    "reserves_adjusted": {
+      "BANK": 140436.71593417597,
+      "WETH": 10.131233799065772
+    },
+    "price": 7.21409193576869e-05,
+    "last_update": 1782553091,
+    "token0": "BANK",
+    "token1": "WETH",
+    "token0_address": "0x24A6A37576377F63f194Caa5F518a60f45b42921",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/IMX",
+    "reserves": {
+      "WETH": "9961338090016520825",
+      "IMX": "127565808763006090793839"
+    },
+    "reserves_adjusted": {
+      "WETH": 9.96133809001652,
+      "IMX": 127565.80876300609
+    },
+    "price": 12806.091672649425,
+    "last_update": 1782583271,
+    "token0": "WETH",
+    "token1": "IMX",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xF57e7e7C23978C3cAEC3C3548E3D615c346e79fF",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "KP3R/ETH",
+    "reserves": {
+      "KP3R": "19046057307454424473232",
+      "WETH": "9749032615641378974"
+    },
+    "reserves_adjusted": {
+      "KP3R": 19046.057307454423,
+      "WETH": 9.74903261564138
+    },
+    "price": 0.0005118661809247897,
+    "last_update": 1782582035,
+    "token0": "KP3R",
+    "token1": "WETH",
+    "token0_address": "0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "OMNI/ETH",
+    "reserves": {
+      "OMNI": "3367495087141529083512886354",
+      "WETH": "9365787086353640723"
+    },
+    "reserves_adjusted": {
+      "OMNI": 3367495087.141529,
+      "WETH": 9.36578708635364
+    },
+    "price": 2.7812325909890823e-09,
+    "last_update": 1782574343,
+    "token0": "OMNI",
+    "token1": "WETH",
+    "token0_address": "0x9e20461bc2c4c980f62f1B279D71734207a6A356",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "NST/ETH",
+    "reserves": {
+      "NST": "12542803966345633683445",
+      "WETH": "9199368069232031664"
+    },
+    "reserves_adjusted": {
+      "NST": 12542.803966345633,
+      "WETH": 9.199368069232031
+    },
+    "price": 0.0007334379213703268,
+    "last_update": 1782579107,
+    "token0": "NST",
+    "token1": "WETH",
+    "token0_address": "0x70Bef3bB2f001dA2fDDb207dAe696cD9FAFf3f5d",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "DOG/ETH",
+    "reserves": {
+      "DOG": "39686147901807880188581414",
+      "WETH": "8588447885561838318"
+    },
+    "reserves_adjusted": {
+      "DOG": 39686147.90180788,
+      "WETH": 8.588447885561838
+    },
+    "price": 2.164092092488169e-07,
+    "last_update": 1782573251,
+    "token0": "DOG",
+    "token1": "WETH",
+    "token0_address": "0xBAac2B4491727D78D2b78815144570b9f2Fe8899",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "SNX/ETH",
+    "reserves": {
+      "SNX": "60326556995525095309128",
+      "WETH": "8492846250394882877"
+    },
+    "reserves_adjusted": {
+      "SNX": 60326.5569955251,
+      "WETH": 8.492846250394884
+    },
+    "price": 0.00014078121930652973,
+    "last_update": 1782583943,
+    "token0": "SNX",
+    "token1": "WETH",
+    "token0_address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "BIFI/ETH",
+    "reserves": {
+      "BiFi": "7883102703156232416900529",
+      "WETH": "7754515967630282372"
+    },
+    "reserves_adjusted": {
+      "BiFi": 7883102.703156233,
+      "WETH": 7.754515967630282
+    },
+    "price": 9.836883089859444e-07,
+    "last_update": 1782536435,
+    "token0": "BiFi",
+    "token1": "WETH",
+    "token0_address": "0x2791BfD60D232150Bff86b39B7146c0eaAA2BA81",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/BICO",
+    "reserves": {
+      "WETH": "7733061518018052995",
+      "BICO": "621049431851493102757296"
+    },
+    "reserves_adjusted": {
+      "WETH": 7.733061518018053,
+      "BICO": 621049.4318514931
+    },
+    "price": 80310.93899931436,
+    "last_update": 1782583955,
+    "token0": "WETH",
+    "token1": "BICO",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xF17e65822b568B3903685a7c9F496CF7656Cc6C2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "SFI/ETH",
+    "reserves": {
+      "SFI": "119644879037758246318",
+      "WETH": "7612819220102409362"
+    },
+    "reserves_adjusted": {
+      "SFI": 119.64487903775824,
+      "WETH": 7.612819220102409
+    },
+    "price": 0.06362845849591198,
+    "last_update": 1782575087,
+    "token0": "SFI",
+    "token1": "WETH",
+    "token0_address": "0xb753428af26E81097e7fD17f40c88aaA3E04902c",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "MOONCAT/ETH",
+    "reserves": {
+      "MOONCAT": "48833530333051547982",
+      "WETH": "6950192132530217917"
+    },
+    "reserves_adjusted": {
+      "MOONCAT": 48.83353033305155,
+      "WETH": 6.950192132530218
+    },
+    "price": 0.14232417941379477,
+    "last_update": 1782519767,
+    "token0": "MOONCAT",
+    "token1": "WETH",
+    "token0_address": "0x98968f0747E0A261532cAcC0BE296375F5c08398",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "FODL/ETH",
+    "reserves": {
+      "FODL": "39163636350632964445651095",
+      "WETH": "6871166967936600319"
+    },
+    "reserves_adjusted": {
+      "FODL": 39163636.350632966,
+      "WETH": 6.871166967936601
+    },
+    "price": 1.754476245877395e-07,
+    "last_update": 1782573071,
+    "token0": "FODL",
+    "token1": "WETH",
+    "token0_address": "0x4C2e59D098DF7b6cBaE0848d66DE2f8A4889b9C3",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "NFTX/ETH",
+    "reserves": {
+      "NFTX": "2375871685027497765041",
+      "WETH": "6321114246753237926"
+    },
+    "reserves_adjusted": {
+      "NFTX": 2375.8716850274977,
+      "WETH": 6.321114246753238
+    },
+    "price": 0.0026605453007366763,
+    "last_update": 1782487403,
+    "token0": "NFTX",
+    "token1": "WETH",
+    "token0_address": "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "MANA/ETH",
+    "reserves": {
+      "MANA": "153345237325677999231831",
+      "WETH": "6249165423940310112"
+    },
+    "reserves_adjusted": {
+      "MANA": 153345.237325678,
+      "WETH": 6.24916542394031
+    },
+    "price": 4.075226288683616e-05,
+    "last_update": 1782579539,
+    "token0": "MANA",
+    "token1": "WETH",
+    "token0_address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "GCAKE/ETH",
+    "reserves": {
+      "GCAKE": "1846570239663900013587992506992",
+      "WETH": "5921520652949460650"
+    },
+    "reserves_adjusted": {
+      "GCAKE": 1846570239663.9,
+      "WETH": 5.921520652949461
+    },
+    "price": 3.2067670786394e-12,
+    "last_update": 1780978331,
+    "token0": "GCAKE",
+    "token1": "WETH",
+    "token0_address": "0x5f944B0c4315Cb7c3a846b025AB4045da44abf6c",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "SUSHI/FRAX",
+    "reserves": {
+      "SUSHI": "63370293679098042245197",
+      "FRAX": "10097890366101811254892"
+    },
+    "reserves_adjusted": {
+      "SUSHI": 63370.293679098046,
+      "FRAX": 10097.890366101812
+    },
+    "price": 0.15934738155446618,
+    "last_update": 1782582683,
+    "token0": "SUSHI",
+    "token1": "FRAX",
+    "token0_address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+    "token1_address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "THOR/ETH",
+    "reserves": {
+      "THOR": "307292691776166480170308",
+      "WETH": "6151778066311867389"
+    },
+    "reserves_adjusted": {
+      "THOR": 307292.6917761665,
+      "WETH": 6.151778066311867
+    },
+    "price": 2.0019278788422512e-05,
+    "last_update": 1782579203,
+    "token0": "THOR",
+    "token1": "WETH",
+    "token0_address": "0xa5f2211B9b8170F694421f2046281775E8468044",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "LDO/ETH",
+    "reserves": {
+      "LDO": "39482818581499782350948",
+      "WETH": "6142852767683860762"
+    },
+    "reserves_adjusted": {
+      "LDO": 39482.818581499785,
+      "WETH": 6.142852767683861
+    },
+    "price": 0.00015558293425794526,
+    "last_update": 1782559187,
+    "token0": "LDO",
+    "token1": "WETH",
+    "token0_address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/DOGEGF",
+    "reserves": {
+      "WETH": "6023572571489354520",
+      "DOGEGF": "355676882272234203097325814496320"
+    },
+    "reserves_adjusted": {
+      "WETH": 6.023572571489354,
+      "DOGEGF": 355676882272234.2
+    },
+    "price": 59047496822021.61,
+    "last_update": 1782546659,
+    "token0": "WETH",
+    "token1": "DOGEGF",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xfb130d93E49DcA13264344966A611dc79a456Bc5",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "OHM/LUSD",
+    "reserves": {
+      "OHM": "194798928573",
+      "LUSD": "9164601731730976433493"
+    },
+    "reserves_adjusted": {
+      "OHM": 194.798928573,
+      "LUSD": 9164.601731730976
+    },
+    "price": 47.04646888392193,
+    "last_update": 1782572459,
+    "token0": "OHM",
+    "token1": "LUSD",
+    "token0_address": "0x383518188C0C6d7730D91b2c03a03C837814a899",
+    "token1_address": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+    "token0_decimals": 9,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "WASABI/ETH",
+    "reserves": {
+      "WASABI": "4607053460053084580508669",
+      "WETH": "4477658319796814550"
+    },
+    "reserves_adjusted": {
+      "WASABI": 4607053.460053084,
+      "WETH": 4.477658319796815
+    },
+    "price": 9.719136881353273e-07,
+    "last_update": 1775218643,
+    "token0": "WASABI",
+    "token1": "WETH",
+    "token0_address": "0x896e145568624a498c5a909187363AE947631503",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "DPI/ETH",
+    "reserves": {
+      "DPI": "254448987466024801078",
+      "WETH": "5701951816415958961"
+    },
+    "reserves_adjusted": {
+      "DPI": 254.4489874660248,
+      "WETH": 5.701951816415959
+    },
+    "price": 0.02240901751349005,
+    "last_update": 1782521195,
+    "token0": "DPI",
+    "token1": "WETH",
+    "token0_address": "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "UNI/ETH",
+    "reserves": {
+      "UNI": "3033461148626233236978",
+      "WETH": "5712243627749703504"
+    },
+    "reserves_adjusted": {
+      "UNI": 3033.4611486262334,
+      "WETH": 5.712243627749704
+    },
+    "price": 0.0018830778928342674,
+    "last_update": 1782583607,
+    "token0": "UNI",
+    "token1": "WETH",
+    "token0_address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "LINK/ETH",
+    "reserves": {
+      "LINK": "1194424657662697413688",
+      "WETH": "5552557567636860213"
+    },
+    "reserves_adjusted": {
+      "LINK": 1194.4246576626974,
+      "WETH": 5.55255756763686
+    },
+    "price": 0.004648729856684597,
+    "last_update": 1782583787,
+    "token0": "LINK",
+    "token1": "WETH",
+    "token0_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/GRT",
+    "reserves": {
+      "WETH": "5233762289185849145",
+      "GRT": "462626773810676303813309"
+    },
+    "reserves_adjusted": {
+      "WETH": 5.233762289185849,
+      "GRT": 462626.7738106763
+    },
+    "price": 88392.77526351724,
+    "last_update": 1782582167,
+    "token0": "WETH",
+    "token1": "GRT",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "RARE/ETH",
+    "reserves": {
+      "RARE": "680086794782039787184161",
+      "WETH": "5212982294902172570"
+    },
+    "reserves_adjusted": {
+      "RARE": 680086.7947820398,
+      "WETH": 5.212982294902172
+    },
+    "price": 7.665172055829836e-06,
+    "last_update": 1782574691,
+    "token0": "RARE",
+    "token1": "WETH",
+    "token0_address": "0xba5BDe662c17e2aDFF1075610382B9B691296350",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "OCEAN/ETH",
+    "reserves": {
+      "OCEAN": "68779661195442518792544",
+      "WETH": "5165817099719092612"
+    },
+    "reserves_adjusted": {
+      "OCEAN": 68779.66119544252,
+      "WETH": 5.165817099719092
+    },
+    "price": 7.510675408882924e-05,
+    "last_update": 1782570155,
+    "token0": "OCEAN",
+    "token1": "WETH",
+    "token0_address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "DAI/WSTETH",
+    "reserves": {
+      "DAI": "8222828856797148679255",
+      "wstETH": "4162076918498104485"
+    },
+    "reserves_adjusted": {
+      "DAI": 8222.828856797149,
+      "wstETH": 4.162076918498104
+    },
+    "price": 0.0005061611996287204,
+    "last_update": 1782583319,
+    "token0": "DAI",
+    "token1": "wstETH",
+    "token0_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "token1_address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "POND/ETH",
+    "reserves": {
+      "POND": "7563945492577894384206148",
+      "WETH": "4949046513875547626"
+    },
+    "reserves_adjusted": {
+      "POND": 7563945.492577895,
+      "WETH": 4.9490465138755475
+    },
+    "price": 6.542943122384725e-07,
+    "last_update": 1782581987,
+    "token0": "POND",
+    "token1": "WETH",
+    "token0_address": "0x57B946008913B82E4dF85f501cbAeD910e58D26C",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "NEWO/USDC",
+    "reserves": {
+      "NEWO": "26542450893447160590657072",
+      "USDC": "8101660709"
+    },
+    "reserves_adjusted": {
+      "NEWO": 26542450.89344716,
+      "USDC": 8101.660709
+    },
+    "price": 0.00030523408488249853,
+    "last_update": 1781367551,
+    "token0": "NEWO",
+    "token1": "USDC",
+    "token0_address": "0x98585dFc8d9e7D48F0b1aE47ce33332CF4237D96",
+    "token1_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "token0_decimals": 18,
+    "token1_decimals": 6,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/QTO",
+    "reserves": {
+      "WETH": "4775499747536314754",
+      "QTO": "68942801551840740161752"
+    },
+    "reserves_adjusted": {
+      "WETH": 4.775499747536315,
+      "QTO": 68942.80155184073
+    },
+    "price": 14436.77210692104,
+    "last_update": 1782572027,
+    "token0": "WETH",
+    "token1": "QTO",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xEA01906843Ea8D910658a2c485ffCe7C104AB2b6",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "ETH/WNCG",
+    "reserves": {
+      "WETH": "4340857708946084012",
+      "WNCG": "1378602606474937164576441"
+    },
+    "reserves_adjusted": {
+      "WETH": 4.340857708946084,
+      "WNCG": 1378602.6064749372
+    },
+    "price": 317587.6057014658,
+    "last_update": 1782577235,
+    "token0": "WETH",
+    "token1": "WNCG",
+    "token0_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token1_address": "0xf203Ca1769ca8e9e8FE1DA9D147DB68B6c919817",
+    "token0_decimals": 18,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  },
+  {
+    "pool": "OHM/ETH",
+    "reserves": {
+      "OHM": "134931354481",
+      "WETH": "4026109314361215066"
+    },
+    "reserves_adjusted": {
+      "OHM": 134.931354481,
+      "WETH": 4.026109314361215
+    },
+    "price": 0.029838204247242928,
+    "last_update": 1782574739,
+    "token0": "OHM",
+    "token1": "WETH",
+    "token0_address": "0x383518188C0C6d7730D91b2c03a03C837814a899",
+    "token1_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "token0_decimals": 9,
+    "token1_decimals": 18,
+    "type": "SUSHISWAP_V2"
+  }
+]

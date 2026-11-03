@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-10-31T21:19:44+0400",
+  "generation_seconds": 2.7066,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize stable, low fee, high liquidity routes",
+  "prompt_sha256": "642a03a7a344d3685c6638d0a6a96b94bbad71d548e06dee82a5438760ddda1b",
+  "response_id": "gen-1793467181-3bM0UQu9GSTvWymQ7FNk",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Low fees, high liquidity"
+    },
+    {
+      "path_index": 14,
+      "reason": "Same tokens, alternate dex"
+    },
+    {
+      "path_index": 10,
+      "reason": "USDC bridge, stable"
+    },
+    {
+      "path_index": 24,
+      "reason": "USDC-ETH-DAI, stable"
+    },
+    {
+      "path_index": 45,
+      "reason": "HEZ direct, low slippage"
+    },
+    {
+      "path_index": 70,
+      "reason": "USDT-HEZ, high volume"
+    },
+    {
+      "path_index": 59,
+      "reason": "SUSHI-FRAX, potential profit"
+    },
+    {
+      "path_index": 44,
+      "reason": "FRAX-SUSHI, stable"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "balance:9K",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 183,
+    "prompt_tokens": 9882,
+    "total_tokens": 10065
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-10-31T21:45:58+0400",
+  "generation_seconds": 9.8886,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize stable, low\u2011fee, high\u2011liquidity routes",
+  "prompt_sha256": "311a34484f58510f12c7f14a2e36b6504b462d519ef59cdd3cab8a4d67f754b4",
+  "response_id": "gen-1793468748-WV5FOIpBpz46AVdajuPB",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "High liquidity, low fees"
+    },
+    {
+      "path_index": 10,
+      "reason": "Stablecoin loop, low slippage"
+    },
+    {
+      "path_index": 6,
+      "reason": "Diversifies token exposure"
+    },
+    {
+      "path_index": 2,
+      "reason": "OHM liquidity strong"
+    },
+    {
+      "path_index": 28,
+      "reason": "ETH base, low gas"
+    },
+    {
+      "path_index": 38,
+      "reason": "ETH-DAI-USDC loop"
+    },
+    {
+      "path_index": 78,
+      "reason": "USDC base, stable"
+    },
+    {
+      "path_index": 82,
+      "reason": "USDC-ETH-DAI loop"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "gas:4x",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 259,
+    "prompt_tokens": 9881,
+    "total_tokens": 10140
+  }
+}

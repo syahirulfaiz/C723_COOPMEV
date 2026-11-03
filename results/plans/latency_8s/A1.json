@@ -1,0 +1,51 @@
+{
+  "agent": "A1",
+  "generated_at": "2026-10-31T21:33:56+0400",
+  "generation_seconds": 4.6158,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritise routes with high liquidity and low fee, using both Uniswap and Sushi for redundancy.",
+  "prompt_sha256": "a5db64347ddeb38c7bc6e66ebed865e239bd81b95232f048c86a8388c791a2c8",
+  "response_id": "gen-1793468031-kMLUp5gfK8nUFblmE3yh",
+  "route_preferences": [
+    {
+      "path_index": 10,
+      "reason": "High liquidity ETH-DAI-USDC"
+    },
+    {
+      "path_index": 11,
+      "reason": "USDC on Sushi, good depth"
+    },
+    {
+      "path_index": 12,
+      "reason": "Sushi DAI-ETH-USDC"
+    },
+    {
+      "path_index": 13,
+      "reason": "Sushi DAI-ETH-USDC"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ via Uniswap, decent volume"
+    },
+    {
+      "path_index": 15,
+      "reason": "HEZ via Sushi, better depth"
+    },
+    {
+      "path_index": 16,
+      "reason": "OHM via Sushi, stable"
+    },
+    {
+      "path_index": 17,
+      "reason": "OHM via Sushi, stable"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "latency:8s",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 235,
+    "prompt_tokens": 9876,
+    "total_tokens": 10111
+  }
+}

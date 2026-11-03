@@ -1,0 +1,51 @@
+{
+  "agent": "C2",
+  "generated_at": "2026-10-31T21:46:18+0400",
+  "generation_seconds": 2.7665,
+  "model": "openai/gpt-oss-20b",
+  "notes": "Prioritize high liquidity, low fees, stablecoins, and diverse tokens.",
+  "prompt_sha256": "3b12b86a3eb9b69cf02fe4e7650117ba9974fd8a148ed660d5363fcf87298418",
+  "response_id": "gen-1793468775-dmJTHOD7TcIALZIimCTA",
+  "route_preferences": [
+    {
+      "path_index": 0,
+      "reason": "Lowest fees, high liquidity"
+    },
+    {
+      "path_index": 10,
+      "reason": "Stablecoin swap, low slippage"
+    },
+    {
+      "path_index": 6,
+      "reason": "Diversifies with RAIL, good depth"
+    },
+    {
+      "path_index": 14,
+      "reason": "HEZ route, high volume"
+    },
+    {
+      "path_index": 2,
+      "reason": "OHM route, potential arbitrage"
+    },
+    {
+      "path_index": 34,
+      "reason": "RAIL via USU, stable"
+    },
+    {
+      "path_index": 45,
+      "reason": "HEZ reverse, high liquidity"
+    },
+    {
+      "path_index": 70,
+      "reason": "USDT-HEZ-ETH, stable"
+    }
+  ],
+  "schema_version": "cosc723-route-plan-v1",
+  "setting_id": "gas:8x",
+  "source": "openrouter",
+  "usage": {
+    "completion_tokens": 248,
+    "prompt_tokens": 9881,
+    "total_tokens": 10129
+  }
+}

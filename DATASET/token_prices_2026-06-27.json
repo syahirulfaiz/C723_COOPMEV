@@ -1,0 +1,467 @@
+{
+    "date": "2026-06-27",
+    "prices": {
+        "4": {
+            "usd": 1.062e-05
+        },
+        "aave": {
+            "usd": 94.57
+        },
+        "a-hunters-dream": {
+            "usd": 3.041e-08
+        },
+        "alchemix": {
+            "usd": 2.42
+        },
+        "altered-state-token": {
+            "usd": 0.00261696
+        },
+        "ampleforth": {
+            "usd": 1.33
+        },
+        "amp-token": {
+            "usd": 0.00047324
+        },
+        "andy-the-wisguy": {
+            "usd": 4.12e-06
+        },
+        "apu-apustaja": {
+            "usd": 4.634e-05
+        },
+        "asteroid": {
+            "usd": 0.0053825
+        },
+        "audius": {
+            "usd": 0.01346765
+        },
+        "autonolas": {
+            "usd": 0.03061047
+        },
+        "banana-gun": {
+            "usd": 2.66
+        },
+        "band-protocol": {
+            "usd": 0.144163
+        },
+        "bankless-dao": {
+            "usd": 0.00012872
+        },
+        "bankroll-vault": {
+            "usd": 0.319135
+        },
+        "beam-2": {
+            "usd": 0.00133121
+        },
+        "biconomy": {
+            "usd": 0.02006923
+        },
+        "bifi": {
+            "usd": 0.00153326
+        },
+        "btc-2x-flexible-leverage-index": {
+            "usd": 12.11
+        },
+        "chain-2": {
+            "usd": 0.00390564
+        },
+        "chainlink": {
+            "usd": 7.37
+        },
+        "chickencoin": {
+            "usd": 1.142e-08
+        },
+        "cig": {
+            "usd": 4.83e-06
+        },
+        "coin98": {
+            "usd": 0.01261863
+        },
+        "compound-governance-token": {
+            "usd": 15.86
+        },
+        "convex-finance": {
+            "usd": 1.11
+        },
+        "crossfi-2": {
+            "usd": 0.02773687
+        },
+        "crypto-asset-governance-alliance": {
+            "usd": 2.465e-05
+        },
+        "cult-dao": {
+            "usd": 5.61329e-07
+        },
+        "dai": {
+            "usd": 0.999648
+        },
+        "dappradar": {
+            "usd": 0.00023919
+        },
+        "decentraland": {
+            "usd": 0.064516
+        },
+        "decentral-games": {
+            "usd": 0.00015424
+        },
+        "defipulse-index": {
+            "usd": 35.74
+        },
+        "delta-financial": {
+            "usd": 0.381425
+        },
+        "derivadao": {
+            "usd": 0.04979568
+        },
+        "destra-network": {
+            "usd": 0.0051819
+        },
+        "dia-data": {
+            "usd": 0.104117
+        },
+        "digg": {
+            "usd": 148.19
+        },
+        "dogegf": {
+            "usd": 2.7231e-11
+        },
+        "dogelon-mars": {
+            "usd": 2.8373e-08
+        },
+        "dummy": {
+            "usd": 5.7421e-08
+        },
+        "ethereum": {
+            "usd": 1590.44
+        },
+        "ethereum-name-service": {
+            "usd": 4.21
+        },
+        "ether-fi-staked-eth": {
+            "usd": 1602.85
+        },
+        "ethy-ai": {
+            "usd": 0.00155357
+        },
+        "everipedia": {
+            "usd": 0.00074399
+        },
+        "feisty-doge-nft": {
+            "usd": 1.902e-05
+        },
+        "floki": {
+            "usd": 2.191e-05
+        },
+        "flute": {
+            "usd": 9.003e-05
+        },
+        "fodl-finance": {
+            "usd": 0.0002797
+        },
+        "frax": {
+            "usd": 0.988254
+        },
+        "ftmtoken": {
+            "usd": 0.00879396
+        },
+        "ftx-token": {
+            "usd": 0.235547
+        },
+        "game-stop": {
+            "usd": 7.62e-06
+        },
+        "gekko": {
+            "usd": 6.1855e-07
+        },
+        "gooch": {
+            "usd": 7.594e-05
+        },
+        "grok-2": {
+            "usd": 0.00033556
+        },
+        "guild-of-guardians": {
+            "usd": 0.00223836
+        },
+        "havven": {
+            "usd": 0.223924
+        },
+        "hera-finance": {
+            "usd": 1.27
+        },
+        "hermez-network-token": {
+            "usd": 3.0
+        },
+        "ichi-farm": {
+            "usd": 0.085774
+        },
+        "illuminaticoin": {
+            "usd": 1.10648e-07
+        },
+        "illuvium": {
+            "usd": 2.91
+        },
+        "i-love-puppies": {
+            "usd": 1.1071e-07
+        },
+        "immutable-x": {
+            "usd": 0.124113
+        },
+        "jesus-coin": {
+            "usd": 1.0875e-08
+        },
+        "joe": {
+            "usd": 0.02906139
+        },
+        "keep3rv1": {
+            "usd": 0.817191
+        },
+        "kekius-maximus": {
+            "usd": 0.00446898
+        },
+        "kira-3": {
+            "usd": 1.51e-05
+        },
+        "kishu-inu": {
+            "usd": 1.22655e-10
+        },
+        "landwolf": {
+            "usd": 7.01e-05
+        },
+        "lido-dao": {
+            "usd": 0.246351
+        },
+        "lifeform": {
+            "usd": 0.00399431
+        },
+        "liquity-usd": {
+            "usd": 1.007
+        },
+        "magic-internet-cash": {
+            "usd": 2.24e-05
+        },
+        "maker": {
+            "usd": 1144.8
+        },
+        "marlin": {
+            "usd": 0.00105561
+        },
+        "mask-network": {
+            "usd": 0.387078
+        },
+        "meeb-vault-nftx": {
+            "usd": 615.54
+        },
+        "messier": {
+            "usd": 4.92e-06
+        },
+        "milady-meme-coin": {
+            "usd": 5.577e-09
+        },
+        "mog-coin": {
+            "usd": 1.05788e-07
+        },
+        "mongoose": {
+            "usd": 6e-18
+        },
+        "mooncat-vault-nftx": {
+            "usd": 221.08
+        },
+        "multichain": {
+            "usd": 0.083411
+        },
+        "myx-finance": {
+            "usd": 0.101752
+        },
+        "near": {
+            "usd": 1.88
+        },
+        "neiro": {
+            "usd": 6.097e-05
+        },
+        "new-order": {
+            "usd": 0.00030551
+        },
+        "nftx": {
+            "usd": 4.22
+        },
+        "ninja-squad": {
+            "usd": 1.18
+        },
+        "non-playable-coin": {
+            "usd": 0.00458818
+        },
+        "ocean-protocol": {
+            "usd": 0.1191
+        },
+        "oil": {
+            "usd": 4.22e-06
+        },
+        "olympus": {
+            "usd": 15.86
+        },
+        "omni-network": {
+            "usd": 0.412
+        },
+        "opal-3": {
+            "usd": 0.232767
+        },
+        "paal-ai": {
+            "usd": 0.00536138
+        },
+        "pancake-games": {
+            "usd": 1.9199e-08
+        },
+        "pax-gold": {
+            "usd": 4071.31
+        },
+        "peipeicoin-vip": {
+            "usd": 6.325e-09
+        },
+        "pendle": {
+            "usd": 1.26
+        },
+        "pepe": {
+            "usd": 2.4e-06
+        },
+        "pepecoin-2": {
+            "usd": 0.052727
+        },
+        "qtoken": {
+            "usd": 0.109999
+        },
+        "quiverx": {
+            "usd": 0.00303978
+        },
+        "radicle": {
+            "usd": 0.212155
+        },
+        "railgun": {
+            "usd": 2.17
+        },
+        "renbtc": {
+            "usd": 13542.98
+        },
+        "saffron-finance": {
+            "usd": 101.79
+        },
+        "saitabit": {
+            "usd": 0.00049157
+        },
+        "sandclock": {
+            "usd": 0.067091
+        },
+        "shapeshift-fox-token": {
+            "usd": 0.00397819
+        },
+        "shibadoge": {
+            "usd": 9e-18
+        },
+        "spell-token": {
+            "usd": 9.949e-05
+        },
+        "spx6900": {
+            "usd": 0.343013
+        },
+        "staked-ether": {
+            "usd": 1590.54
+        },
+        "starlink": {
+            "usd": 9.6694e-08
+        },
+        "stkatom": {
+            "usd": 2.29
+        },
+        "stronghold-token": {
+            "usd": 0.00400416
+        },
+        "superfarm": {
+            "usd": 0.086431
+        },
+        "superrare": {
+            "usd": 0.0121434
+        },
+        "sushi": {
+            "usd": 0.158827
+        },
+        "synapse-2": {
+            "usd": 0.294033
+        },
+        "tensor": {
+            "usd": 0.03593701
+        },
+        "tether": {
+            "usd": 0.998542
+        },
+        "the-doge-nft": {
+            "usd": 0.00034422
+        },
+        "the-graph": {
+            "usd": 0.01803346
+        },
+        "thorswap": {
+            "usd": 0.03158334
+        },
+        "tokemak": {
+            "usd": 0.0324271
+        },
+        "tokenfi": {
+            "usd": 0.00236234
+        },
+        "tokenlon": {
+            "usd": 0.173656
+        },
+        "ufo-gaming": {
+            "usd": 8.1185e-08
+        },
+        "uma": {
+            "usd": 0.383832
+        },
+        "unibot": {
+            "usd": 0.577928
+        },
+        "unistake": {
+            "usd": 0.00135035
+        },
+        "uniswap": {
+            "usd": 2.99
+        },
+        "usd-coin": {
+            "usd": 0.99997
+        },
+        "volt-inu-2": {
+            "usd": 3.7378e-08
+        },
+        "vusd": {
+            "usd": 0.8999
+        },
+        "wasabi-cheese": {
+            "usd": 0.00096883
+        },
+        "wise-token11": {
+            "usd": 0.08307
+        },
+        "wojak": {
+            "usd": 1.129e-05
+        },
+        "woo-network": {
+            "usd": 0.0110891
+        },
+        "wrapped-bitcoin": {
+            "usd": 60371
+        },
+        "wrapped-ncg": {
+            "usd": 0.00491814
+        },
+        "wrapped-steth": {
+            "usd": 1968.64
+        },
+        "wrapped-tron": {
+            "usd": 0.320283
+        },
+        "xsushi": {
+            "usd": 0.250154
+        },
+        "yearn-finance": {
+            "usd": 1653.65
+        }
+    }
+}

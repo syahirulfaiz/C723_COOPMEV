@@ -1,0 +1,24 @@
+case,expected,actual,passed
+single_swap_fee,996.0069810399032,996.0069810399032,True
+gas_cost_conversion,4.77132,4.77132,True
+three_leg_status,committed,committed,True
+three_leg_final_amount,1181.0182792400155,1181.0182792400155,True
+three_leg_after_gas_profit,180.51827924001554,180.51827924001554,True
+three_leg_wallet_eth,5181.0182792400155,5181.0182792400155,True
+three_leg_p1_reserves,"(1001000.0, 1998007.9860379202)","(1001000.0, 1998007.9860379202)",True
+three_leg_p2_reserves,"(501992.0139620798, 398417.455650024)","(501992.0139620798, 398417.455650024)",True
+three_leg_p3_reserves,"(801582.544349976, 598818.98172076)","(801582.544349976, 598818.98172076)",True
+reused_pool_status,rejected,rejected,True
+reused_pool_constraint,C1,C1,True
+reused_pool_final_amount,994.0149491943662,994.0149491943662,True
+reused_pool_after_gas_profit,-6.4850508056338185,-6.4850508056338185,True
+c1_rejection_status,rejected,rejected,True
+c1_rejection_constraint,C1,C1,True
+c1_rejection_after_gas_profit,-818.9817207599845,-818.9817207599845,True
+c1_rejection_state_unchanged,True,True,True
+c6_rejection_status,rejected,rejected,True
+c6_rejection_constraint,C6,C6,True
+c6_rejection_state_unchanged,True,True,True
+continuity_status,invalid_proposal,invalid_proposal,True
+continuity_constraint,C4,C4,True
+continuity_state_unchanged,True,True,True
