@@ -1,8 +1,7 @@
 # CoopMEV-Lite — Cooperative vs Adversarial Integrated Agents in a Simulated DeFi Market
 
-Reproducible code for the **COSC 723 Cybersecurity in IoT and Applications** course prototype
-(Khalifa University), derived from the RPE proposal *"Adversarial and Cooperative Multi-Agent
-Learning for MEV Optimization in Decentralized Finance"*. The experiment follows the approved
+Reproducible code for the **COSC 723 Cybersecurity in IoT and Applications** project
+The experiment follows the revised
 project contract, **Revision 1.1** (2026-11-01), in which the offline planner is served by
 OpenRouter chat-completions (model `openai/gpt-oss-20b` at submission).
 
@@ -34,10 +33,10 @@ OpenRouter chat-completions (model `openai/gpt-oss-20b` at submission).
 | Message overhead (B3) | ≈ **0.11 ms** per message; mean online decision ≈ **9–11 ms** |
 | Week-4 gate | one repeatable *rival-first* case: `python demo_rival_first.py --setting gas:1x --condition B2 --seed 40` |
 
-The contract states that the primary paired interval supports the communication hypothesis and
+the primary paired interval supports the communication hypothesis and
 that the LLM-plan contribution is evaluated **separately**, where null or negative findings remain
 valid results. Execution-quality metrics can legitimately be zero because the checker prevents
-invalid commitments.
+invalid transactions.
 
 ## 3. Repository layout
 
@@ -66,12 +65,6 @@ C723_COOPMEV/
     └── figures/                 # 17 COSC723_* figures (png + pdf) + atlas/paired CSVs
 ```
 
-**Intentionally not committed** (see `.gitignore`): `logs/`, `results_demo/`, `results_scratch/`,
-`results/archive/`, `results/freeze_manifest.json` (it records absolute paths of the machine that
-produced the campaign; any run regenerates it), `make_contract_rev11.py` (local-only docx helper),
-`DATASET/*.mhtml` (raw pool-page snapshots; the derived JSON snapshot **is** committed) and
-`.openrouter.env` (local API key file).
-
 
 ## 4. Requirements
 
@@ -82,10 +75,11 @@ conda create -n coopmev python=3.10 -y && conda activate coopmev
 pip install -r requirements.txt        # numpy, pandas, torch, stable-baselines3, gymnasium, matplotlib, openpyxl
 ```
 
-`environment.py` also loads the paired gas rows from `DATASET/Book1.xlsx` (pandas + openpyxl) and
-`driver.py` reads `OPENROUTER_API_KEY` from the environment. **No API key is needed to reproduce
-the campaign**, because the 92 checked plans ship in `results/plans/` and are reused when the
-recorded planner model matches `OPENROUTER_MODEL`.
+The `environment.py` script also loads the paired gas data from `DATASET/Book1.xlsx` using `pandas` and `openpyxl`, while `driver.py` retrieves the `OPENROUTER_API_KEY` from the environment variables.
+
+**No API key is required to reproduce the campaign**, as the 92 previously evaluated plans are already included in `results/plans/` and can be reused, provided that the recorded planner model matches the value specified in `OPENROUTER_MODEL`.
+
+To regenerate the plans or run the entire process from scratch, please refer to **Section 5.3** for further instructions.
 
 ## 5. Reproduce
 
@@ -109,7 +103,7 @@ python driver.py --dataset-dir DATASET --model best_model.zip --output-dir resul
 python chart.py --input results/raw_results.csv --output-dir results/figures
 ```
 
-### 5.3 Regenerate the 92 plans from scratch (requires an API key)
+### 5.3 Full Regenerate the 92 plans, and Campaign from scratch (requires an API key)
 
 ```bash
 export OPENROUTER_API_KEY='...' OPENROUTER_MODEL='openai/gpt-oss-20b'
@@ -190,7 +184,7 @@ The job runs the same four stages as `driver.sh` and writes `logs/cosc723.<jobid
 | `results/checker_selftest.csv` | the 23 known-answer checker cases |
 | `results/summary_by_cell.csv`, `overall_by_condition.csv` | aggregated metrics |
 | `results/week4_rival_first_case.json`, `results/dev/` | Week-4 gate evidence |
-| `results/figures/COSC723_*.png|pdf` | 17 figures (metric atlases, profit–time, paired bootstrap) |
+| `results/figures/COSC723_*.png or pdf` | 17 figures (metric atlases, profit–time, paired bootstrap) |
 
 Figures: `COSC723_Fig04_mean_profit_performance_atlas`, `COSC723_Fig09_inference_time_performance_atlas`,
 `COSC723_Fig10_profit_time_expanded_cluster`, `COSC723_arbitrage_type_heat_1x4`, `COSC723_team_win_1x4`,
@@ -248,8 +242,7 @@ Both definitions are documented in the demo artifact and are never conflated.
   seconds (`plan_usage.csv`), and the campaign summary (`plan_campaign_summary.json`).
 - **Limitations.** (i) One fixed dataset snapshot (2026-06-27) and one frozen checkpoint; the
   results are a controlled simulation, not a live-market or on-chain claim. (ii) The block-time
-  budget C6 (4–12 s) rarely binds because decisions take ≈10 ms. (iii) The fixed proposal queue
-  always gives the team agents their turn before the rivals within a round, so a rival can only
+  budget C6 (4–12 s) rarely binds because decisions take ≈10 ms. (iii) The rival can only
   "take an opportunity first" by preempting the team's next-best route (demonstrated in
   `results/dev/`). (iv) Planning used 101 requests for 92 plans (9 recorded retries); a fresh
   campaign may use a different number. (v) The LLM-plan contribution is null in this snapshot and
@@ -277,9 +270,8 @@ Git tag: `v1.1`.
 ```bibtex
 @misc{faiz2026coopmev,
   title  = {CoopMEV-Lite: Cooperative vs Adversarial Integrated Agents in a Simulated DeFi Market},
-  author = {Faiz, Syahirul},
+  author = {Faiz, Syahirul and Materwala, Huned and Svetinovic, Davor},
   year   = {2026},
-  note   = {COSC 723 course prototype, Khalifa University; contract Revision 1.1}
 }
 ```
 
