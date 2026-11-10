@@ -64,6 +64,9 @@ C723_COOPMEV/
     ├── dev/week4_rival_first_demo.{json,txt}   # Week-4 preemption demo case
     └── figures/                 # 17 COSC723_* figures (png + pdf) + atlas/paired CSVs
 ```
+`results/plans/` (92 files) and `results/prompts/` (92 files) are **planner provenance**, not additional
+experiment results; `results/README.md` is a one-page index of every file in that folder.
+
 
 
 ## 4. Requirements

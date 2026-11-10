@@ -8,6 +8,7 @@ results/archive/
 results/freeze_manifest.json
 make_contract_rev11.py
 DATASET/*.mhtml
+DATASET/*.BACKUP.*
 __pycache__/
 *.pyc
 *.pyo
