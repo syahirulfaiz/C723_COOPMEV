@@ -273,7 +273,7 @@ Git tag: `v1.1`.
 ```bibtex
 @misc{faiz2026coopmev,
   title  = {CoopMEV-Lite: Cooperative vs Adversarial Integrated Agents in a Simulated DeFi Market},
-  author = {Faiz, Syahirul and Materwala, Huned and Svetinovic, Davor},
+  author = {Faiz, Syahirul and Svetinovic, Davor},
   year   = {2026},
 }
 ```
