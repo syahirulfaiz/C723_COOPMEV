@@ -3,8 +3,8 @@
     "condition": "B2",
     "note": "the rival committed the route that was the team agent's own best candidate on the shared state right after its turn",
     "rival": "A2",
-    "rival_after_gas_profit_usd": 155.55401545194636,
-    "rival_amount_fraction": 0.8955241441726685,
+    "rival_after_gas_profit_usd": 155.5521861575547,
+    "rival_amount_fraction": 0.8955210447311401,
     "rival_route": 16,
     "round": 2,
     "seed": 40,
@@ -18,12 +18,12 @@
   "case_definition": "Preemption: after the team agent's turn in round r its own PPO candidate order is recomputed on the shared state; a case is recorded when a rival commits exactly that route later in the same round and the team agent did not commit that route itself. This closes the Week-4 gate ('one repeatable case where a rival takes an opportunity first'); it is a development artifact, not part of the frozen campaign.",
   "code_sha256": {
     "chart.py": "939aeb43cc27bb78a33a3acb7956c62934a1dc7c4055a3cb8dfb2f9eb0aabd57",
-    "driver.py": "53b216cce71db7b3a5ba80d4fa15728b3b6d84515fed41ddf0cf863616b4529b",
+    "driver.py": "181d6c1a7b939b899724885d366399d0419ed2537237d2e74ff2566e7997d996",
     "environment.py": "f77ac037185060bfdf2fe7c5376cc28d3847dd58ccce62dadce9316d8d9325ad"
   },
   "command": "python demo_rival_first.py --setting gas:1x --condition B2 --seed 40",
   "frozen_campaign_note": "this tool writes only under results/dev/; the frozen campaign artifacts are untouched",
-  "generated_at": "2026-11-01T21:15:57+0400",
+  "generated_at": "2026-11-10T15:57:19+0400",
   "model_sha256": "6f5a0cc762086ef29f06399b52446ca6cd6c0fd9c1cfa7addf9337654088bdec",
   "planner": {
     "environment_model": "openai/gpt-oss-20b",
@@ -35,7 +35,7 @@
         "C1": 23,
         "C2": 23
       },
-      "generated_at": "2026-11-01T12:46:12+0400",
+      "generated_at": "2026-11-10T15:37:48+0400",
       "mode": "fill_complete",
       "model": "openai/gpt-oss-20b",
       "planned_slots": 92,
@@ -81,5 +81,5 @@
       "slots_missing": []
     }
   },
-  "search_seconds": 0.41
+  "search_seconds": 0.66
 }

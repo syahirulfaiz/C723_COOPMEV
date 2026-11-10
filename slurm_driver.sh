@@ -22,15 +22,29 @@
 set -eo pipefail
 module purge || true
 module load miniconda/3 || true
-source "$(conda info --base)/etc/profile.d/conda.sh"
+if command -v conda >/dev/null 2>&1; then
+  source "$(conda info --base)/etc/profile.d/conda.sh"
+fi
 if [[ -n "${COSC723_ENV:-}" ]]; then
-  conda activate "$COSC723_ENV"
+  if command -v conda >/dev/null 2>&1; then
+    conda activate "$COSC723_ENV"
+  fi
+  # fallback that works even when the module system is unavailable
+  if [[ -x "${COSC723_ENV}/bin/python" ]]; then
+    export PATH="${COSC723_ENV}/bin:${PATH}"
+  fi
 else
   echo "note: set COSC723_ENV=/path/to/conda-env (or activate it before sbatch); continuing with the current python" >&2
 fi
 set -u
 
-cd "$(dirname "$(readlink -f "$0")")"
+# Slurm copies the batch script into its spool directory, so use the submit
+# directory when available and fall back to the script location otherwise.
+if [[ -n "${SLURM_SUBMIT_DIR:-}" ]]; then
+  cd "$SLURM_SUBMIT_DIR"
+else
+  cd "$(dirname "$(readlink -f "$0")")"
+fi
 PROJECT="$(pwd)"
 export OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1
 export NUMEXPR_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONUNBUFFERED=1

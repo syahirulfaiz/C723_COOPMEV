@@ -6,7 +6,7 @@
     "C1": 23,
     "C2": 23
   },
-  "generated_at": "2026-11-01T12:46:12+0400",
+  "generated_at": "2026-11-10T15:37:48+0400",
   "mode": "fill_complete",
   "model": "openai/gpt-oss-20b",
   "planned_slots": 92,

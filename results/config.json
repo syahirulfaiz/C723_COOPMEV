@@ -63,7 +63,7 @@
     "B1": "one integrated agent versus one integrated rival; context only",
     "B2": "four agents with saved plans; communication OFF (primary control)",
     "B3": "C1 route message read and ignored; measures message overhead",
-    "PPO_no_plan": "Proposed without C1/C2 plans; identical duplicate-route rule",
+    "PPO_no_plan": "Proposed without C1/C2 plans; messages and the identical duplicate-route rule kept",
     "Proposed": "communication ON; C2 avoids C1's route when a feasible alternative exists"
   },
   "max_rounds": 40,
@@ -81,7 +81,7 @@
         "C1": 23,
         "C2": 23
       },
-      "generated_at": "2026-11-01T12:46:12+0400",
+      "generated_at": "2026-11-10T15:37:48+0400",
       "mode": "fill_complete",
       "model": "openai/gpt-oss-20b",
       "planned_slots": 92,

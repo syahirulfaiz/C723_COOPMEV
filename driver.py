@@ -7,8 +7,8 @@ Approved contract experiment: 23 settings x seeds 40-49 per condition.
   B3           as B2, but C1 sends a route message that C2 reads and ignores (overhead).
   Proposed     communication ON: C2 uses C1's route message, plans and PPO candidates to
                avoid the duplicate route whenever a feasible alternative exists.
-  PPO_no_plan  Proposed with the identical duplicate-route rule but no LLM plans for C1/C2
-               (first feasible candidate in PPO order); A1/A2 plans remain unchanged.
+  PPO_no_plan  Proposed without LLM plans for C1/C2 (messages and the identical duplicate-route
+               rule kept; first feasible candidate in PPO order); A1/A2 plans remain unchanged.
 
 Stages:
   --self-test    independently calculated known-answer cases for the execution checker;
@@ -69,8 +69,11 @@ CONDITION_NOTES = {
     "B2": "four agents with saved plans; communication OFF (primary control)",
     "B3": "C1 route message read and ignored; measures message overhead",
     "Proposed": "communication ON; C2 avoids C1's route when a feasible alternative exists",
-    "PPO_no_plan": "Proposed without C1/C2 plans; identical duplicate-route rule",
+    "PPO_no_plan": "Proposed without C1/C2 plans; messages and the identical duplicate-route rule kept",
 }
+# Conditions in which C1 sends its current route to C2. B3 reads the message and ignores it;
+# Proposed and PPO_no_plan use it for the identical duplicate-route avoidance rule.
+MESSAGE_CONDITIONS = ("B3", "Proposed", "PPO_no_plan")
 PLAN_SCHEMA = "cosc723-route-plan-v1"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 @dataclass(frozen=True)
@@ -637,10 +640,10 @@ def run_episode(
             obs = env._timed_observation()  # observation construction counts toward C6
             selection_started = time.perf_counter()
             env.resume_decision_clock()
-            if agent == "C2" and condition in ("B3", "Proposed") and c1_message is not None:
+            if agent == "C2" and condition in MESSAGE_CONDITIONS and c1_message is not None:
                 payload, decode_ms = decode_route_message(c1_message[1])
                 overhead_ms = c1_message[2] + decode_ms
-                if condition == "Proposed":
+                if condition != "B3":
                     message_used = True
                     exclude_route = int(payload.get("route_index", -1))
                 else:
@@ -689,7 +692,7 @@ def run_episode(
             proposals[agent] += 1
             round_route[agent] = int(path_index)
             round_pools[agent] = tuple(proposal.pool_ids)
-            if agent == "C1" and condition in ("B3", "Proposed"):
+            if agent == "C1" and condition in MESSAGE_CONDITIONS:
                 _bytes, text, encode_ms = encode_route_message("C1", int(path_index), round_index)
                 c1_message = (_bytes, text, encode_ms)
                 messages_sent += 1
@@ -895,7 +898,7 @@ def openrouter_settings() -> Dict[str, Any]:
 
     return {
         "api_key": os.environ.get("OPENROUTER_API_KEY", "").strip(),
-        "model": os.environ.get("OPENROUTER_MODEL", "openai/gpt-oss-120b").strip() or "openai/gpt-oss-120b",
+        "model": os.environ.get("OPENROUTER_MODEL", "openai/gpt-oss-20b").strip() or "openai/gpt-oss-20b",
         "max_tokens": _int_env("OPENROUTER_MAX_COMPLETION_TOKENS", 512),
         "reasoning_effort": os.environ.get("OPENROUTER_REASONING_EFFORT", "low").strip() or "low",
     }

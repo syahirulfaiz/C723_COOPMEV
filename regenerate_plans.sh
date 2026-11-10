@@ -24,7 +24,7 @@ if ! "$PY" -c 'import sys; raise SystemExit(0 if sys.version_info >= (3, 10) els
   fi
 fi
 : "${OPENROUTER_API_KEY:?export OPENROUTER_API_KEY first}"
-export OPENROUTER_MODEL="${OPENROUTER_MODEL:-openai/gpt-oss-120b}"
+export OPENROUTER_MODEL="${OPENROUTER_MODEL:-openai/gpt-oss-20b}"
 export OPENROUTER_MAX_COMPLETION_TOKENS="${OPENROUTER_MAX_COMPLETION_TOKENS:-512}"
 export OPENROUTER_REASONING_EFFORT="${OPENROUTER_REASONING_EFFORT:-low}"
 

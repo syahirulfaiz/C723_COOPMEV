@@ -39,7 +39,8 @@ bash demo_5min.sh                       # ~2-3 minutes of compute, the rest is n
 ## Headline numbers to quote
 
 - Communication (primary, paired `Proposed − B2`, complete seed groups): **+31.3 USD, 95% CI [3.5, 61.0]** → positive interval supports the communication hypothesis.
-- Plan value (paired `Proposed − PPO_no_plan`): **−7.1 USD, 95% CI [−33.2, +20.7]** → null finding (the LLM plans add no measurable value in this snapshot); the contract states this is a valid result.
+- Communication without LLM plans (paired `PPO_no_plan − B2`): **+83.9 USD, 95% CI [46.9, 123.1]** → the message/duplicate-avoidance rule also helps without plans.
+- Plan value (paired `Proposed − PPO_no_plan`, messages held ON in both): **−52.5 USD, 95% CI [−64.3, −42.2]** → negative finding (the LLM plans reduce team profit in this snapshot); the contract states this is a valid result.
 - Execution quality: **0 invalid proposals, 0 rejected trades, 0 invalid committed trades** across 1150 cases; message overhead **0.11 ms**; mean online decision **≈ 9–11 ms**.
 - Campaign scale: 23 settings × seeds 40–49 × 5 conditions = **1150 cases**, **16,025** proposal records (≈ 5.2 rounds, 7.4 team commits and 6.5 rival commits per case).
 
