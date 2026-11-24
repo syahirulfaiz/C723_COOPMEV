@@ -115,6 +115,26 @@ def save_figure(figure: Any, output_dir: Path, filename: str, formats: Sequence[
 def condition_label(condition: str) -> str:
     return CONDITION_LABELS.get(condition, condition)
 
+
+def condition_footer(figure: Any, conditions: Sequence[str]) -> None:
+    """Explain compact condition codes below the plotting area."""
+    from matplotlib.lines import Line2D
+
+    descriptions = {
+        "B1": "integrated-agent context baseline",
+        "B2": "communication OFF (control)",
+        "B3": "message sent and ignored",
+        "Proposed": "communication ON, with LLM plans",
+        "PPO_no_plan": "communication ON, without C1/C2 LLM plans",
+    }
+    labels = [f"{condition}: {descriptions.get(condition, condition_label(condition))}"
+              for condition in conditions]
+    handles = [Line2D([], [], linestyle="none") for _ in labels]
+    figure.legend(handles, labels, loc="lower center", bbox_to_anchor=(0.5, 0.015),
+                  ncol=2, frameon=False, fontsize=8.0, handlelength=0,
+                  handletextpad=0, columnspacing=2.5, labelspacing=0.6)
+
+
 def atlas(
     cells: pd.DataFrame,
     column: str,
@@ -136,16 +156,19 @@ def atlas(
     vmax = float(finite.max()) if finite.size else 1.0
     if np.isclose(vmin, vmax):
         vmax = vmin + 1.0
+    if column == "mean_cross_dex_pct":
+        vmin, vmax = 0.0, 100.0
     colour_map = plt.get_cmap(cmap).copy()
     colour_map.set_bad("#e6e6e6")
     widths = [len(VALUE_ORDER[dimension]) for dimension in DIMENSIONS]
     figure, axes = plt.subplots(
         1,
         len(DIMENSIONS),
-        figsize=(3.05 * len(DIMENSIONS) + 0.9, 0.60 * len(conditions) + 2.1),
+        figsize=(3.05 * len(DIMENSIONS) + 0.9, 0.60 * len(conditions) + 2.7),
         gridspec_kw={"width_ratios": widths, "wspace": 0.14},
         dpi=dpi,
     )
+    figure.subplots_adjust(left=0.10, right=0.95, bottom=0.28, top=0.86)
     images = []
     for axis, dimension in zip(axes, DIMENSIONS):
         levels = VALUE_ORDER[dimension]
@@ -161,30 +184,37 @@ def atlas(
                     matrix[row_index, column_index] = float(
                         pd.to_numeric(match[column], errors="coerce").iloc[0]
                     )
-        images.append(axis.imshow(matrix, cmap=colour_map, vmin=vmin, vmax=vmax, aspect="auto"))
+        image = axis.imshow(matrix, cmap=colour_map, vmin=vmin, vmax=vmax,
+                            aspect="auto", interpolation="none")
+        images.append(image)
         for row_index in range(matrix.shape[0]):
             for column_index in range(matrix.shape[1]):
                 value = matrix[row_index, column_index]
                 if np.isfinite(value):
-                    colour = "white" if value > vmin + 0.68 * (vmax - vmin) else "black"
+                    # Use the rendered cell brightness, not the metric's direction:
+                    # cividis gets lighter as values increase, unlike YlOrRd.
+                    red, green, blue, _ = colour_map(image.norm(value))
+                    brightness = 0.2126 * red + 0.7152 * green + 0.0722 * blue
+                    colour = "white" if brightness < 0.47 else "#111111"
                     axis.text(column_index, row_index, fmt.format(value), ha="center", va="center",
-                              fontsize=7.4, color=colour)
+                              fontsize=8.5, fontweight="bold", color=colour)
                 else:
                     axis.text(column_index, row_index, "n/a", ha="center", va="center",
                               fontsize=7.0, color="#666666")
         labels = (
-            [condition_label(condition) for condition in conditions]
+            list(conditions)
             if dimension == DIMENSIONS[0]
             else ["" for _ in conditions]
         )
         axis.set_yticks(range(len(conditions)))
-        axis.set_yticklabels(labels, fontsize=7.6)
+        axis.set_yticklabels(labels, fontsize=8.5)
         axis.set_xticks(range(len(levels)))
         axis.set_xticklabels([f"{level:g}" for level in levels], fontsize=7.6)
         axis.set_title(DIMENSION_TITLES[dimension], fontsize=9.0)
         axis.set_xlabel("setting value", fontsize=7.8)
     figure.colorbar(images[-1], ax=list(axes), fraction=0.012, pad=0.01)
-    figure.suptitle(title, fontsize=10.0, y=1.0)
+    figure.suptitle(title, fontsize=10.0, y=0.96)
+    condition_footer(figure, conditions)
     save_figure(figure, output_dir, filename, formats, dpi)
 
 
@@ -192,6 +222,7 @@ def profit_time_figure(
     raw: pd.DataFrame, output_dir: Path, formats: Sequence[str], dpi: int, conditions: Sequence[str]
 ) -> None:
     import matplotlib.pyplot as plt
+    from matplotlib.ticker import FuncFormatter, MaxNLocator
 
     overall = (
         raw.groupby("condition", as_index=False)
@@ -212,9 +243,21 @@ def profit_time_figure(
         "Proposed": "#D62728",
         "PPO_no_plan": "#7A5195",
     }
-    figure, axes = plt.subplots(1, 2, figsize=(11.6, 4.5), dpi=dpi)
-    for axis in axes:
-        for _, point in overall.iterrows():
+    # Separate the nearly coincident B2/B3 points with labelled callouts.
+    offsets = {
+        "B1": (18, 20),
+        "B2": (18, -38),
+        "B3": (18, 36),
+        "Proposed": (-18, -32),
+        "PPO_no_plan": (-18, 26),
+    }
+    figure, axes = plt.subplots(1, 2, figsize=(15.0, 6.2), dpi=dpi)
+    figure.subplots_adjust(left=0.075, right=0.98, bottom=0.24, top=0.86, wspace=0.30)
+    cluster = overall[overall.condition != "B1"]
+    if cluster.empty:
+        cluster = overall
+    for axis, frame in zip(axes, (overall, cluster)):
+        for _, point in frame.iterrows():
             condition = str(point["condition"])
             axis.scatter(
                 point["decision_ms"],
@@ -227,13 +270,27 @@ def profit_time_figure(
                 label=condition_label(condition),
                 zorder=3,
             )
-        axis.grid(alpha=0.25, linestyle=":")
-        axis.set_xlabel("Mean online decision time (ms)")
-        axis.set_ylabel("Mean combined team after-gas profit (USD)")
-    axes[0].set_title("All conditions")
-    cluster = overall[overall.condition != "B1"]
-    if cluster.empty:
-        cluster = overall
+            if np.isfinite(point["decision_ms"]) and np.isfinite(point["profit"]):
+                dx, dy = offsets.get(condition, (14, 20))
+                axis.annotate(
+                    f"{condition}\n{point['decision_ms']:.2f} ms, ${point['profit']:,.2f}",
+                    xy=(point["decision_ms"], point["profit"]),
+                    xytext=(dx, dy), textcoords="offset points",
+                    ha="left" if dx >= 0 else "right", va="center", fontsize=9,
+                    color="#111111", fontweight="bold" if condition == "Proposed" else "normal",
+                    arrowprops={"arrowstyle": "-", "color": "#666666", "lw": 0.8},
+                    bbox={"boxstyle": "round,pad=0.2", "fc": "white", "ec": "none", "alpha": 0.95},
+                    zorder=5,
+                )
+        axis.grid(color="#D4DCE5", linewidth=0.6, linestyle="--")
+        axis.set_xlabel("Mean online decision time (ms)", fontsize=10)
+        axis.set_ylabel("Mean combined team after-gas profit (USD)", fontsize=10)
+        axis.tick_params(labelsize=9)
+        axis.xaxis.set_major_locator(MaxNLocator(nbins=6))
+        axis.yaxis.set_major_locator(MaxNLocator(nbins=6))
+        axis.xaxis.set_major_formatter(FuncFormatter(lambda value, _: f"{value:.1f}"))
+        axis.yaxis.set_major_formatter(FuncFormatter(lambda value, _: f"{value:,.0f}"))
+    axes[0].set_title("(a) All conditions", fontsize=12, fontweight="bold")
 
     def _limits(series: pd.Series) -> Optional[Tuple[float, float]]:
         data = pd.to_numeric(series, errors="coerce").to_numpy(dtype=float)
@@ -246,14 +303,17 @@ def profit_time_figure(
             span = max(abs(high), 1.0) * 0.05
         return low - 0.35 * span, high + 0.35 * span
 
-    xlim, ylim = _limits(cluster["decision_ms"]), _limits(cluster["profit"])
-    if xlim:
-        axes[1].set_xlim(*xlim)
-    if ylim:
-        axes[1].set_ylim(*ylim)
-    axes[1].set_title("Expanded cluster (communication comparisons)")
-    axes[0].legend(loc="best", fontsize=8)
-    figure.suptitle("Profit against online decision time by condition", fontsize=10.0)
+    for axis, frame in zip(axes, (overall, cluster)):
+        xlim, ylim = _limits(frame["decision_ms"]), _limits(frame["profit"])
+        if xlim:
+            axis.set_xlim(*xlim)
+        if ylim:
+            axis.set_ylim(*ylim)
+    axes[1].set_title("(b) Expanded cluster (excluding B1)", fontsize=12, fontweight="bold")
+    handles, labels = axes[0].get_legend_handles_labels()
+    figure.legend(handles, labels, loc="lower center", bbox_to_anchor=(0.5, 0.015),
+                  ncol=3, frameon=False, fontsize=9)
+    figure.suptitle("Profit against online decision time by condition", fontsize=12.0)
     save_figure(figure, output_dir, "COSC723_Fig10_profit_time_expanded_cluster", formats, dpi)
 
 def paired_frame(raw: pd.DataFrame, condition_a: str, condition_b: str) -> pd.DataFrame:
@@ -333,6 +393,7 @@ def paired_bootstrap_figure(
     )
     table = pd.DataFrame(rows)
     figure, axes = plt.subplots(1, 2, figsize=(12.2, 4.7), dpi=dpi, gridspec_kw={"width_ratios": [1.3, 1.0]})
+    figure.subplots_adjust(left=0.13, right=0.98, bottom=0.25, top=0.84, wspace=0.30)
     positions = np.arange(len(table))
     axes[0].errorbar(
         table.mean_difference_usd,
@@ -348,7 +409,14 @@ def paired_bootstrap_figure(
     )
     axes[0].axvline(0.0, color="#333333", linestyle="--", linewidth=1.0)
     axes[0].set_yticks(positions)
-    axes[0].set_yticklabels(table.label, fontsize=8)
+    sweep_labels = {
+        "balance": "Wallet balance",
+        "latency": "Block-time budget",
+        "gas": "Gas multiplier",
+        "liquidity": "Liquidity depth",
+        "overall": "Overall",
+    }
+    axes[0].set_yticklabels([sweep_labels[sweep] for sweep in table.sweep], fontsize=8.5)
     axes[0].invert_yaxis()
     axes[0].set_xlabel(f"Paired {condition_a} minus {condition_b} (USD per case)")
     axes[0].set_title("Paired differences with 95% bootstrap intervals\n(complete seed-group resampling)")
@@ -364,6 +432,7 @@ def paired_bootstrap_figure(
     axes[1].set_ylabel("bootstrap draws")
     axes[1].set_title("Bootstrap distribution")
     figure.suptitle(f"Communication value: {condition_a} minus {condition_b} (paired ON minus OFF)", fontsize=10.0)
+    condition_footer(figure, (condition_a, condition_b))
     save_figure(figure, output_dir, "COSC723_paired_proposed_minus_B2_bootstrap95", formats, dpi)
     return table
 
